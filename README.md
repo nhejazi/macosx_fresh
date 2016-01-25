@@ -1,5 +1,5 @@
-# Mac OS X Setup & Customization
-## for Fresh Installs (using Homebrew)
+# Mac OS X customization
+## for Fresh Installs (using Homebrew for necessary applications)
 
 My set of customization scripts for setting Mac OS X to my preferences.
 
