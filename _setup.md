@@ -1,17 +1,17 @@
-# Fresh OSX install, last updated January 26, 2016
+# for customization, after fresh installs of OS X
 
 ## install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
-## use homebrew for first time
+## get homebrew essentials
 brew update && brew upgrade
 
 brew doctor
 
-brew tap caskroom/cask
+brew tap caskroom/cask      <- get brew cask, note this project does not coordinate with homebrew
 
-brew install brew-cask
+brew tap homebrew/science
 
 
 ## generally useful tools
@@ -20,6 +20,9 @@ brew install wget
 brew install git
 
 brew install coreutils
+
+xcode-select --install
+brew install zmq
 
 
 ## install vim/macvim (requires XCode)
@@ -55,13 +58,11 @@ brew cask install hammerspoon
 
 
 ## install R and RStudio
-brew tap homebrew/science
-
 brew install R
 
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
-brew install Caskroom/cask/rstudio
+brew install Caskroom/cask/rstudio    <- install brew version to the cask directory (rather than install via cask)
 
 
 ## install Julia
@@ -76,6 +77,12 @@ brew update && brew upgrade julia
 brew install python
 
 pip install ipython
+
+
+## install Python3.5
+brew install python3
+
+pip3 install ipython
 
 
 ## install MacTex (_warning_: pulls down 2.5GB)
@@ -94,49 +101,29 @@ brew cask install font-fira-code
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 
-## import and set up customization tools 
+## import and set up customization files 
 cd
 
 mkdir git-repos
 
-cd git-repos
+git clone git@github.com:nhejazi/mydotfiles.git ~/git-repos/mydotfiles
 
-git clone git@github.com:nhejazi/mydotfiles.git
+cd ~/git-repos/mydotfiles
+
+sh _setup.sh
 
 cd
 
-ln -s ~/git-repos/mydotfiles/.bash_profile .bash_profile
+git clone git@github.com:nhejazi/myvimconfig.git ~/.vim
 
-ln -s ~/git-repos/mydotfiles/.bashrc .bashrc
+sh _setup.sh
 
-git clone git@github.com:nhejazi/myvimconfig.git
-
-mv ~/myvimconfig ~/.vim
-
-ln -s ~/.vim/.vimrc .vimrc
-
-git clone git@github.com:nhejazi/myhammerspoon.git
-
-mv ~/myhammerspoon ~/.hammerspoon
-
-wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh
+git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
-## Setup Git Config
-git config --global user.name "Nima Hejazi"
+## set up R kernel for jupyter notebooks
+R
 
-git config --global user.email "nima.hejazi7@gmail.com"
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'),repos = c('http://irkernel.github.io/', getOption('repos')), type = 'source')
 
-git config --global credential.helper "cache --timeout=3600"
-
-git config --global color.ui true
-
-git config --global core.editor vim
-
-git config --global push.followTags true
-
-git config --global push.default simple
-
-git config --global alias.unstage "reset HEAD --"
-
-git config --global alias.hist "log --all --graph --decorate --oneline"
+IRkernel::installspec(user = FALSE)
