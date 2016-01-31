@@ -58,6 +58,18 @@ brew install lua
 brew cask install hammerspoon
 
 
+## install Python2.7
+brew install python
+
+pip install ipython
+
+
+## install Python3.5
+brew install python3
+
+pip3 install ipython
+
+
 ## install R and RStudio
 brew install R
 
@@ -69,21 +81,13 @@ brew install Caskroom/cask/rstudio    <- install brew version to the cask direct
 ## install Julia
 brew tap staticfloat/julia
 
-brew install --HEAD --64bit julia
+brew install julia
 
 brew update && brew upgrade julia
 
 
-## install Python2.7
-brew install python
-
-pip install ipython
-
-
-## install Python3.5
-brew install python3
-
-pip3 install ipython
+## install Scala
+brew install scala --with-docs
 
 
 ## install MacTex (_warning_: pulls down 2.5GB)
