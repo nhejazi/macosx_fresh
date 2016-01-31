@@ -58,16 +58,32 @@ brew install lua
 brew cask install hammerspoon
 
 
-## install Python2.7
+## install Python2
 brew install python
 
 pip install ipython
 
 
-## install Python3.5
+## install Python3
 brew install python3
 
 pip3 install ipython
+
+
+## install Python 2/3 support
+brew tap homebrew/python
+
+brew install numpy
+
+brew install scipy
+
+brew install matplotlib
+
+brew install numpy --with-python3
+
+brew install scipy --with-python3
+
+brew install matplotlib --with-python3
 
 
 ## install R and RStudio
