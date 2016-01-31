@@ -9,7 +9,7 @@ brew update && brew upgrade
 
 brew doctor
 
-brew tap caskroom/cask      <- get brew cask, note this project does not coordinate with homebrew
+brew tap caskroom/cask      <- get brew cask (note this project does not coordinate with homebrew)
 
 brew tap homebrew/science
 
@@ -35,6 +35,20 @@ brew install vim && brew install macvim
 
 brew linkapps macvim
 
+if [ -e ~/.vim ]; then
+  do rm -rf ~/.vim;
+fi
+
+if [ -e ~/.vimrc]; then
+  do rm -f ~/.vimrc;
+fi
+
+git clone git@github.com:nhejazi/myvimconfig.git ~/.vim
+
+cd ~/.vim
+
+sh _setup.sh
+
 
 ## install iTerm (Mac terminal alternative)
 brew cask install iterm2
@@ -56,6 +70,12 @@ brew install lua
 
 ## install Hammerspoon
 brew cask install hammerspoon
+
+if [-e ~/.hammerspoon]; then
+  do rm -rf ~/.hammerspoon;
+fi
+
+git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
 ## install Python2
@@ -91,7 +111,7 @@ brew install R
 
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
-brew install Caskroom/cask/rstudio    <- install brew version to the cask directory (rather than install via cask)
+brew install Caskroom/cask/rstudio
 
 
 ## install Julia
@@ -124,7 +144,7 @@ brew cask install font-fontawesome
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 
-## import and set up customization files 
+## set up customization files for shell
 cd
 
 mkdir git-repos
@@ -135,13 +155,11 @@ cd ~/git-repos/mydotfiles
 
 sh _setup.sh
 
-cd
 
-git clone git@github.com:nhejazi/myvimconfig.git ~/.vim
+## set up jupyter notebooks in python
+pip install notebook
 
-sh _setup.sh
-
-git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
+pip3 install notebook
 
 
 ## set up R kernel for jupyter notebooks
