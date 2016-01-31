@@ -157,7 +157,7 @@ brew install graphviz --with-librsvg --with-x11
 
 brew install cairo
 
-brew install py2cairo # this will ask you to download xquartz and install it
+brew install py2cairo   <- this will ask you to download xquartz and install it
 
 brew install qt pyqt
 
@@ -174,6 +174,10 @@ pip install scipy
 pip install nose
 
 pip install pandas
+
+pip install scikit-learn
+
+pip install seaborn
 
 pip install nltk
 
@@ -206,6 +210,10 @@ pip3 install scipy
 pip3 install nose
 
 pip3 install pandas
+
+pip3 install scikit-learn
+
+pip3 install seaborn
 
 pip3 install nltk
 
