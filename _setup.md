@@ -117,6 +117,8 @@ brew tap caskroom/fonts
 
 brew cask install font-fira-code
 
+brew cask install font-fontawesome
+
 
 ## clean up homebrew stuff
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
