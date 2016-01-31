@@ -13,6 +13,8 @@ brew tap caskroom/cask      <- get brew cask (note this project does not coordin
 
 brew tap homebrew/science
 
+brew tap caskroom/fonts
+
 
 ## generally useful tools (including xcode tools)
 xcode-select --install
@@ -114,14 +116,12 @@ brew update && brew upgrade julia
 brew install scala --with-docs
 
 
-## install MacTex (_warning_: pulls down 2.5GB)
+## install MacTex (_warning_: pulls down 2.5GB) -- not worth it, download from MacTex site
 brew cask install mactex
 
 
 ## miscellaneous things
 brew install libsvg curl libxml2 gdal geos boost
-
-brew tap caskroom/fonts
 
 brew cask install font-fira-code
 
