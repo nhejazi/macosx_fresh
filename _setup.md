@@ -90,20 +90,8 @@ brew install python3
 pip3 install ipython
 
 
-## install Python 2/3 support
+## set up Python 2/3 support (not used in favor of pip)
 brew tap homebrew/python
-
-brew install numpy
-
-brew install scipy
-
-brew install matplotlib
-
-brew install numpy --with-python3
-
-brew install scipy --with-python3
-
-brew install matplotlib --with-python3
 
 
 ## install R and RStudio
@@ -154,6 +142,87 @@ git clone git@github.com:nhejazi/mydotfiles.git ~/git-repos/mydotfiles
 cd ~/git-repos/mydotfiles
 
 sh _setup.sh
+
+
+## (some) Python stuff with Brew
+
+brew install matplotlib --with-cairo --with-tex
+
+brew install matplotlib --with-cairo --with-tex --with-python3
+
+brew install libtiff libjpeg webp little-cms2
+
+brew install imagemagick --with-fftw --with-librsvg --with-x11
+
+brew install graphviz --with-librsvg --with-x11
+
+brew install cairo
+
+brew install py2cairo # this will ask you to download xquartz and install it
+
+brew install qt pyqt
+
+
+## Python2 stuff with Pip
+
+pip install Pillow
+
+pip install virtualenv
+
+pip install numpy
+
+pip install scipy
+
+pip install nose
+
+pip install pandas
+
+pip install nltk
+
+pip install sympy
+
+pip install q
+
+pip install snakeviz
+
+pip install html5lib cssselect pyquery lxml BeautifulSoup
+
+pip install Flask Django tornado
+
+pip install rdflib SPARQLWrapper
+
+pip install networkx
+
+
+## Python3 stuff with Pip
+
+pip3 install Pillow
+
+pip3 install virtualenv
+
+pip3 install numpy
+
+pip3 install scipy
+
+pip3 install nose
+
+pip3 install pandas
+
+pip3 install nltk
+
+pip3 install sympy
+
+pip3 install q
+
+pip3 install snakeviz
+
+pip3 install html5lib cssselect pyquery lxml BeautifulSoup
+
+pip3 install Flask Django tornado
+
+pip3 install rdflib SPARQLWrapper
+
+pip3 install networkx
 
 
 ## set up jupyter notebooks in python
