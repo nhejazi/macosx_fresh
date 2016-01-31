@@ -145,7 +145,6 @@ sh _setup.sh
 
 
 ## (some) Python stuff with Brew
-
 brew install matplotlib --with-cairo --with-tex
 
 brew install matplotlib --with-cairo --with-tex --with-python3
@@ -164,7 +163,6 @@ brew install qt pyqt
 
 
 ## Python2 stuff with Pip
-
 pip install Pillow
 
 pip install virtualenv
@@ -193,9 +191,10 @@ pip install rdflib SPARQLWrapper
 
 pip install networkx
 
+pip install cloud
+
 
 ## Python3 stuff with Pip
-
 pip3 install Pillow
 
 pip3 install virtualenv
@@ -223,6 +222,18 @@ pip3 install Flask Django tornado
 pip3 install rdflib SPARQLWrapper
 
 pip3 install networkx
+
+pip3 install cloud
+
+
+## to UPDATE python (and brew) related things
+brew update && brew outdated && brew upgrade --all
+
+pip list --outdated
+
+pip install -U package1 package2 ...    <-- manually, from list given above
+
+pip-review -i
 
 
 ## set up jupyter notebooks in python
