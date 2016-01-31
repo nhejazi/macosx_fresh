@@ -22,6 +22,7 @@ brew install git
 brew install coreutils
 
 xcode-select --install
+
 brew install zmq
 
 
