@@ -14,14 +14,14 @@ brew tap caskroom/cask      <- get brew cask, note this project does not coordin
 brew tap homebrew/science
 
 
-## generally useful tools
+## generally useful tools (including xcode tools)
+xcode-select --install
+
 brew install wget
 
 brew install git
 
 brew install coreutils
-
-xcode-select --install
 
 brew install zmq
 
