@@ -259,7 +259,7 @@ source("http://www.bioconductor.org/biocLite.R")
 
 biocLite()
 
-biocLite(c("made4","hgu133plus2","hgu133plus2cdf","hgu133plus2probe","Heatplus","biomaRt","limma","affy"))
+biocLite(c("made4","hgu133plus2","hgu133plus2cdf","hgu133plus2probe","Heatplus","biomaRt","limma","affy","bsseq"))
 
 install.packages(c('rzmq','repr','IRkernel','IRdisplay'),repos = c('http://irkernel.github.io/', getOption('repos')), type = 'source')
 
