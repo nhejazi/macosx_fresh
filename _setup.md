@@ -1,4 +1,4 @@
-# for setup and customization, after fresh installs of OS X
+# for setup + customization, after fresh OS X installs
 
 ## install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
