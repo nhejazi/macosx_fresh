@@ -1,4 +1,4 @@
-# for customization, after fresh installs of OS X
+# for setup and customization, after fresh installs of OS X
 
 ## install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -9,7 +9,7 @@ brew update && brew upgrade
 
 brew doctor
 
-brew tap caskroom/cask      <- get brew cask (note this project does not coordinate with homebrew)
+brew tap caskroom/cask
 
 brew tap homebrew/science
 
