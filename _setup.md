@@ -1,5 +1,8 @@
 # for setup + customization, after fresh OS X installs
 
+## NOTE: install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) and [MacTeX](https://tug.org/mactex/downloading.html) manually
+
+
 ## install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -140,12 +143,3 @@ pip list --outdated
 pip install -U package1 package2 ...
 
 pip-review -i
-
-
-## install Julia packages and iJulia kernel for Jupyter
-julia
-
-to be updated...
-
-
-## NOTE: install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) and [MacTeX](https://tug.org/mactex/downloading.html) manually
