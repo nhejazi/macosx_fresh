@@ -133,11 +133,3 @@ brew install imagemagick --with-fftw --with-librsvg --with-x11
 brew install graphviz --with-librsvg --with-x11
 
 brew install cairo py2cairo qt pyqt
-
-
-## to UPDATE python (and brew) related things
-brew update && brew outdated && brew upgrade --all
-
-pip list --outdated
-
-pip install -U package1 package2 ...
