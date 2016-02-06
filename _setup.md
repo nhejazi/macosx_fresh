@@ -147,8 +147,6 @@ sh _setup.sh
 ## (some) Python stuff with Brew
 brew install matplotlib --with-cairo --with-tex
 
-brew install matplotlib --with-cairo --with-tex --with-python3
-
 brew install libtiff libjpeg webp little-cms2
 
 brew install imagemagick --with-fftw --with-librsvg --with-x11
