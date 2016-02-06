@@ -184,3 +184,6 @@ biocLite(c("made4","hgu133plus2","hgu133plus2cdf","hgu133plus2probe","Heatplus",
 install.packages(c('rzmq','repr','IRkernel','IRdisplay'),repos = c('http://irkernel.github.io/', getOption('repos')), type = 'source')
 
 IRkernel::installspec(user = FALSE)
+
+
+# NOTE: install Google Chrome and MacTeX manually
