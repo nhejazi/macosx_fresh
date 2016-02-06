@@ -141,5 +141,3 @@ brew update && brew outdated && brew upgrade --all
 pip list --outdated
 
 pip install -U package1 package2 ...
-
-pip-review -i
