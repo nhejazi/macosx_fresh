@@ -155,35 +155,17 @@ brew install graphviz --with-librsvg --with-x11
 
 brew install cairo
 
-brew install py2cairo   <- this will ask you to download xquartz and install it
+brew install py2cairo
 
 brew install qt pyqt
 
 
 ## Python2 stuff with Pip
-pip install Pillow
+pip install Pillow virtualenv nose notebook
 
-pip install virtualenv
+pip install numpy scipy pandas scikit-learn seaborn
 
-pip install numpy
-
-pip install scipy
-
-pip install nose
-
-pip install pandas
-
-pip install scikit-learn
-
-pip install seaborn
-
-pip install nltk
-
-pip install sympy
-
-pip install q
-
-pip install snakeviz
+pip install nltk sympy q snakeviz networkx cloud
 
 pip install html5lib cssselect pyquery lxml BeautifulSoup
 
@@ -191,45 +173,19 @@ pip install Flask Django tornado
 
 pip install rdflib SPARQLWrapper
 
-pip install networkx
-
-pip install cloud
-
 
 ## Python3 stuff with Pip
-pip3 install Pillow
+pip3 install Pillow virtualenv nose notebook
 
-pip3 install virtualenv
+pip3 install numpy scipy pandas scikit-learn seaborn
 
-pip3 install numpy
-
-pip3 install scipy
-
-pip3 install nose
-
-pip3 install pandas
-
-pip3 install scikit-learn
-
-pip3 install seaborn
-
-pip3 install nltk
-
-pip3 install sympy
-
-pip3 install q
-
-pip3 install snakeviz
+pip3 install nltk sympy q snakeviz networkx cloud
 
 pip3 install html5lib cssselect pyquery lxml BeautifulSoup
 
 pip3 install Flask Django tornado
 
 pip3 install rdflib SPARQLWrapper
-
-pip3 install networkx
-
-pip3 install cloud
 
 
 ## to UPDATE python (and brew) related things
@@ -240,12 +196,6 @@ pip list --outdated
 pip install -U package1 package2 ...    <-- manually, from list given above
 
 pip-review -i
-
-
-## set up jupyter notebooks in python
-pip install notebook
-
-pip3 install notebook
 
 
 ## install R packages, Bioconductor, and R Jupyter kernel
