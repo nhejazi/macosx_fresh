@@ -132,40 +132,12 @@ brew install graphviz --with-librsvg --with-x11
 brew install cairo py2cairo qt pyqt
 
 
-## Python2 stuff with Pip
-pip install ipython Pillow virtualenv nose notebook
-
-pip install numpy scipy pandas scikit-learn seaborn
-
-pip install nltk sympy q snakeviz networkx cloud
-
-pip install html5lib cssselect pyquery lxml BeautifulSoup
-
-pip install Flask Django tornado
-
-pip install rdflib SPARQLWrapper
-
-
-## Python3 stuff with Pip
-pip3 install ipython Pillow virtualenv nose notebook
-
-pip3 install numpy scipy pandas scikit-learn seaborn
-
-pip3 install nltk sympy q snakeviz networkx cloud
-
-pip3 install html5lib cssselect pyquery lxml BeautifulSoup
-
-pip3 install Flask Django tornado
-
-pip3 install rdflib SPARQLWrapper
-
-
 ## to UPDATE python (and brew) related things
 brew update && brew outdated && brew upgrade --all
 
 pip list --outdated
 
-pip install -U package1 package2 ...    <-- manually, from list given above
+pip install -U package1 package2 ...
 
 pip-review -i
 
