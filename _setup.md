@@ -19,13 +19,11 @@ brew tap caskroom/fonts
 ## generally useful tools (including xcode tools)
 xcode-select --install
 
-brew install wget
+brew install wget git coreutils zmq
 
-brew install git
+brew install libsvg curl libxml2 gdal geos boost
 
-brew install coreutils
-
-brew install zmq
+brew cask install font-fira-code font-fontawesome
 
 
 ## install vim/macvim (requires XCode)
@@ -80,20 +78,10 @@ fi
 git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
-## install Python2
+## install Python2 & Python3
 brew install python
 
-pip install ipython
-
-
-## install Python3
 brew install python3
-
-pip3 install ipython
-
-
-## set up Python 2/3 support (not used in favor of pip)
-brew tap homebrew/python
 
 
 ## install R and RStudio
@@ -114,18 +102,6 @@ brew update && brew upgrade julia
 
 ## install Scala
 brew install scala --with-docs
-
-
-## install MacTex (_warning_: pulls down 2.5GB) -- not worth it, download from MacTex site
-brew cask install mactex
-
-
-## miscellaneous things
-brew install libsvg curl libxml2 gdal geos boost
-
-brew cask install font-fira-code
-
-brew cask install font-fontawesome
 
 
 ## clean up homebrew stuff
@@ -153,15 +129,11 @@ brew install imagemagick --with-fftw --with-librsvg --with-x11
 
 brew install graphviz --with-librsvg --with-x11
 
-brew install cairo
-
-brew install py2cairo
-
-brew install qt pyqt
+brew install cairo py2cairo qt pyqt
 
 
 ## Python2 stuff with Pip
-pip install Pillow virtualenv nose notebook
+pip install ipython Pillow virtualenv nose notebook
 
 pip install numpy scipy pandas scikit-learn seaborn
 
@@ -175,7 +147,7 @@ pip install rdflib SPARQLWrapper
 
 
 ## Python3 stuff with Pip
-pip3 install Pillow virtualenv nose notebook
+pip3 install ipython Pillow virtualenv nose notebook
 
 pip3 install numpy scipy pandas scikit-learn seaborn
 
