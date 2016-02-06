@@ -186,4 +186,4 @@ install.packages(c('rzmq','repr','IRkernel','IRdisplay'),repos = c('http://irker
 IRkernel::installspec(user = FALSE)
 
 
-## NOTE: install Google Chrome and MacTeX manually
+## NOTE: install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) and MacTeX manually
