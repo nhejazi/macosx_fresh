@@ -29,6 +29,16 @@ brew install libsvg curl libxml2 gdal geos boost
 brew cask install font-fira-code font-fontawesome
 
 
+## install Ruby & Jekyll (avoid Mac system ruby)
+brew install rbenv ruby-build
+
+rbenv install 2.2.3
+
+rbenv global 2.2.3
+
+gem install jekyll
+
+
 ## install vim/macvim (requires XCode)
 export PATH=/usr/local/bin:$PATH
 
