@@ -29,14 +29,12 @@ brew install libsvg curl libxml2 gdal geos boost
 brew cask install font-fira-code font-fontawesome
 
 
-## install Ruby & Jekyll (avoid Mac system ruby)
+## install User Ruby (avoid Mac system ruby)
 brew install rbenv ruby-build
 
 rbenv install 2.2.3
 
 rbenv global 2.2.3
-
-gem install jekyll
 
 
 ## install vim/macvim (requires XCode)
@@ -131,6 +129,10 @@ git clone git@github.com:nhejazi/mydotfiles.git ~/git-repos/mydotfiles
 cd ~/git-repos/mydotfiles
 
 sh _setup.sh
+
+
+## install Jekyll with Ruby (must reload bash_profile for this)
+gem install jekyll
 
 
 ## (some) Python stuff with Brew
