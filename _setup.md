@@ -1,6 +1,6 @@
 # for setup + customization, after fresh OS X installs
 
-## NOTE: install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) and [MacTeX](https://tug.org/mactex/downloading.html) manually
+## NOTE: install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), [MacTeX](https://tug.org/mactex/downloading.html), and [FB Messenger](http://fbmacmessenger.rsms.me/) manually
 
 
 ## install homebrew
