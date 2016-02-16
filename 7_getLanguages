@@ -11,3 +11,6 @@ brew install Caskroom/cask/rstudio
 brew tap staticfloat/julia
 brew install julia
 brew update && brew upgrade julia
+
+# install Scala
+brew install scala --with-docs
