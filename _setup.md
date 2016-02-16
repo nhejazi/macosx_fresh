@@ -29,7 +29,7 @@ brew install libsvg curl libxml2 gdal geos boost
 brew cask install font-fira-code font-fontawesome
 
 
-## install User Ruby (avoid Mac system ruby)
+## install Ruby for user (avoid the system ruby)
 brew install rbenv ruby-build
 
 rbenv install 2.2.3
