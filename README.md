@@ -18,7 +18,7 @@ First, install [Google Chrome](https://www.google.com/chrome/browser/desktop/ind
 
 exit the current shell and launch new (to re-load bash_profile)
 
-7. brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
-8. gem install jekyll
-9. `sh 7_getLanguages.sh`
-10. `sh 8_setupPython.sh`
+1. brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+2. gem install jekyll
+3. `sh 7_getLanguages.sh`
+4. `sh 8_setupPython.sh`
