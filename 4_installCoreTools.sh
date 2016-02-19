@@ -6,3 +6,5 @@ brew cask install atom
 
 brew install Caskroom/cask/xquartz
 brew cask install java
+
+brew install pandoc
