@@ -10,6 +10,7 @@ brew tap caskroom/fonts
 
 # get XCode and core Homebrew tools
 xcode-select --install
-brew install wget git coreutils zmq
-brew install libsvg curl libxml2 gdal geos boost
+brew install wget git coreutils curl
+brew install zmq czmq libzmq3
+brew install libsvg libxml2 gdal geos boost
 brew cask install font-fira-code font-fontawesome

@@ -1,1 +1,3 @@
 stuff that should be installed manually -- see list below...
+
+[FB Messenger](http://fbmacmessenger.rsms.me/)

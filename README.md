@@ -1,5 +1,5 @@
 # Mac OS X customization
-## Fresh Installs (using Homebrew)
+## Fresh Installs using Homebrew
 
 My set of customization scripts for setting Mac OS X to my preferences.
 
@@ -7,7 +7,9 @@ My set of customization scripts for setting Mac OS X to my preferences.
 
 to be made into a set of scripts in the (ideally, near) future...
 
-First, install [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), [MacTeX](https://tug.org/mactex/downloading.html), and [FB Messenger](http://fbmacmessenger.rsms.me/) manually.
+First, install 
+[Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), 
+[MacTeX](https://tug.org/mactex/downloading.html), manually.
 
 1. `sh 1_genBrew.sh`
 2. `sh 2_getRuby.sh`
@@ -15,10 +17,10 @@ First, install [Google Chrome](https://www.google.com/chrome/browser/desktop/ind
 4. `sh 4_installTermAtom.sh`
 5. `sh 5_getHammerspoon.sh`
 6. `sh 6_getShellConfig.sh`
+7. `sh 7_getLanguages.sh`
+8. `sh 8_setupPython.sh`
 
 exit the current shell and launch new (to re-load bash_profile)
 
-1. brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
-2. gem install jekyll
-3. `sh 7_getLanguages.sh`
-4. `sh 8_setupPython.sh`
+1. gem install jekyll
+2. brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
