@@ -23,4 +23,5 @@ First, install
 exit the current shell and launch new (to re-load bash_profile)
 
 1. gem install jekyll
-2. brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+2. brew update && brew upgrade brew-cask
+3. brew cleanup && brew cask cleanup
