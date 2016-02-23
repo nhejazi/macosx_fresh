@@ -20,6 +20,6 @@ and then [MacTeX](https://tug.org/mactex/downloading.html), both manually.
 
 exit current shell and re-launch (to re-load bash_profile)
 
-1. `gem install jekyll` (to-do: integrate this into a script)
+1. `gem install jekyll` (_TO-DO_: integrate this into a script)
 2. `brew update && brew upgrade brew-cask`
 3. `brew cleanup && brew cask cleanup`
