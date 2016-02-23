@@ -5,11 +5,9 @@ My set of customization scripts for setting Mac OS X to my preferences.
 
 **Directions/Roadmap**
 
-to be made into a set of scripts in the (ideally, near) future...
-
 First, install 
 [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), 
-[MacTeX](https://tug.org/mactex/downloading.html), manually.
+and then [MacTeX](https://tug.org/mactex/downloading.html), both manually.
 
 1. `sh 1_genBrew.sh`
 2. `sh 2_getRuby.sh`
@@ -22,6 +20,6 @@ First, install
 
 exit current shell and re-launch (to re-load bash_profile)
 
-1. `gem install jekyll`
+1. `gem install jekyll` (to-do: integrate this into a script)
 2. `brew update && brew upgrade brew-cask`
 3. `brew cleanup && brew cask cleanup`
