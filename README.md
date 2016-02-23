@@ -20,8 +20,8 @@ First, install
 7. `sh 7_getLanguages.sh`
 8. `sh 8_setupPython.sh`
 
-exit the current shell and launch new (to re-load bash_profile)
+exit current shell and re-launch (to re-load bash_profile)
 
-1. gem install jekyll
-2. brew update && brew upgrade brew-cask
-3. brew cleanup && brew cask cleanup
+1. `gem install jekyll`
+2. `brew update && brew upgrade brew-cask`
+3. `brew cleanup && brew cask cleanup`
