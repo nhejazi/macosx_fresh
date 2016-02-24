@@ -4,7 +4,7 @@ brew cask install hammerspoon
 
 # set up preferred configuration of Hammerspoon
 if [-e ~/.hammerspoon]; then 
-  do rm -rf ~/.hammerspoon; 
+  rm -rf ~/.hammerspoon; 
 fi
 
 git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
