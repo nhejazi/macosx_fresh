@@ -7,7 +7,8 @@ My set of customization scripts for setting Mac OS X to my preferences.
 
 First, install 
 [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), 
-and then [MacTeX](https://tug.org/mactex/downloading.html), both manually.
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), and then 
+[MacTeX](https://tug.org/mactex/downloading.html) -- all manually.
 
 1. `sh 1_getBrew.sh`
 2. `sh 2_getRuby.sh`
