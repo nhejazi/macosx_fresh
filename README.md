@@ -16,7 +16,7 @@ First, install
 4. `sh 4_getCoreTools.sh`
 5. `sh 5_getHammerspoon.sh`
 6. `sh 6_getShellConfig.sh`
-7. `sh 7_getMyLangs.sh`
+7. `sh 7_getCoreLangs.sh`
 8. `sh 8_setupPython.sh`
 
 exit current shell and re-launch (to re-load `.bash_profile`)
