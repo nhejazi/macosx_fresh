@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # set up a few Python-specific things with Brew
 brew install matplotlib --with-cairo --with-tex
 brew install libtiff libjpeg webp little-cms2
