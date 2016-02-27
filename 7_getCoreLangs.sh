@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # install Python 2 and 3
 brew install python
 brew install python3
