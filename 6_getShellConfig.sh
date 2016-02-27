@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # set up configuration scripts for Bash shell
 cd
 mkdir git-repos
