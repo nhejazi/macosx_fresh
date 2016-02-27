@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # get Homebrew utility
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
