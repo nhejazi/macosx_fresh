@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # get Vim and MacVim
 export PATH=/usr/local/bin:$PATH
 brew update
