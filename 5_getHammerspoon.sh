@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # install Lua language, Hammerspoon utility
 brew install lua
 brew cask install hammerspoon
