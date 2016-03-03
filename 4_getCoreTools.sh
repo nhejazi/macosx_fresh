@@ -9,3 +9,4 @@ brew install Caskroom/cask/xquartz
 brew cask install java
 
 brew install pandoc
+brew install node
