@@ -20,8 +20,6 @@ First, install
 8. `sh 8_setupPython.sh`
 
 exit shell, re-launch (to re-load `.bash_profile`),then `gem install jekyll` 
-(_TO-DO_: make into a script or part of a script.)
+(_make into part of a script at some point._)
 
-__update:__ `brew update && brew upgrade brew-cask`
-
-__cleanup:__ `brew cleanup && brew cask cleanup`
+__update:__ `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
