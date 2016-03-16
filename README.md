@@ -17,7 +17,6 @@ First, install
 5. `sh 5_getHammerspoon.sh`
 6. `sh 6_getShellConfig.sh`
 7. `sh 7_getCoreLangs.sh`
-8. `sh 8_setupPython.sh`
 
 exit shell, re-launch (to re-load `.bash_profile`),then `gem install jekyll` 
 (_make into part of a script at some point._)
