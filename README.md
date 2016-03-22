@@ -21,4 +21,8 @@ First, install
 exit shell, re-launch (to re-load `.bash_profile`),then `gem install jekyll` 
 (_make into part of a script at some point._)
 
-__update:__ `brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup`
+__to update use the following:__ 
+```bash
+brew update && brew upgrade && brew cleanup
+brew upgrade brew-cask && brew cask cleanup
+```
