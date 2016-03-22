@@ -16,3 +16,6 @@ brew install imagemagick --with-fftw --with-librsvg --with-x11
 
 # adding dependencies for using termpdf tool
 brew install bash gs imagemagick poppler pdfgrep djvulibre selecta
+
+# installing tool for StackOverflow support from terminal
+npm install -g how2
