@@ -19,3 +19,6 @@ brew install bash gs imagemagick poppler pdfgrep djvulibre selecta
 
 # installing tool for StackOverflow support from terminal
 npm install -g how2
+
+# add Jekyll tool to Ruby for web blogging capabilities
+gem install jekyll
