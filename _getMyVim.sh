@@ -17,5 +17,4 @@ if [ -e ~/.vimrc]; then
 fi
 
 git clone git@github.com:nhejazi/myvimconfig.git ~/.vim
-cd ~/.vim
-sh _setup.sh
+sh ~/.vim/_setup.sh
