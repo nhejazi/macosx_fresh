@@ -1,4 +1,4 @@
-# Growing list of manual downloads (in spite of [Homebrew](brew.sh)):
+# Working list of manual downloads:
 
 * [FB Messenger](http://fbmacmessenger.rsms.me/)
 
