@@ -1,5 +1,5 @@
 # Fresh Mac OS X
-> Customization of fresh OS X install with [Homebrew](http://brew.sh/).
+> Customization of fresh OS X installs with [Homebrew](http://brew.sh/).
 
 My set of customization scripts to set up Mac OS X with my preferences in mind.
 
