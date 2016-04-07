@@ -32,3 +32,11 @@ __For Updates:__
 brew update && brew upgrade && brew cleanup
 brew upgrade brew-cask && brew cask cleanup
 ```
+
+---
+
+## License
+
+&copy; 2016 Nima Hejazi
+
+This repository is licensed under the MIT license. See `LICENSE` for details.
