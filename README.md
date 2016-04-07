@@ -13,7 +13,7 @@ First, install
 1. `sh _getBrew.sh`
 2. `sh _getRuby.sh`
 3. `sh _getMyVim.sh`
-4. exit and re-launch shell (to reload `.bash_profile`)
+4. `source .bashrc .bash_profile`)
 5. `sh _getCoreTools.sh`
 6. `sh _getHammerspoon.sh`
 7. `sh _getShellConfig.sh`
