@@ -29,8 +29,8 @@ First, install
 
 __For Updates:__ 
 ```bash
-brew update && brew upgrade && brew cleanup
 brew upgrade brew-cask && brew cask cleanup
+brew update && brew upgrade && brew cleanup
 ```
 
 ---
