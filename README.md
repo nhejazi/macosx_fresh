@@ -10,24 +10,24 @@ First, install
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), and then 
 [MacTeX](https://tug.org/mactex/downloading.html) -- __all manually__.
 
-1. `sh _getBrew.sh`
-2. `sh _getRuby.sh`
-3. `sh _getMyVim.sh`
-4. `source .bashrc .bash_profile`)
-5. `sh _getCoreTools.sh`
-6. `sh _getHammerspoon.sh`
-7. `sh _getShellConfig.sh`
-8. `sh _getCoreLangs.sh`
+1. `git clone http://github.com/nhejazi/freshOSX.git ~/freshOSX`
+2. `sh ~/freshOSX/_getBrew.sh`
+3. `sh ~/freshOSX/_getRuby.sh`
+4. `sh ~/freshOSX/_getMyVim.sh`
+5. `sh ~/freshOSX/_getCoreTools.sh`
+6. `sh ~/freshOSX/_getHammerspoon.sh`
+7. `sh ~/freshOSX/_getShellConfig.sh`
+8. `sh ~/freshOSX/_getCoreLangs.sh`
+9. `source ~/.bashrc ~/.bash_profile`
+10. `rm -rf ~/freshOSX`
 
 **Manual Installation**
 
-* For a few tools (usually lacking Homebrew support), it is easiest to install
-  the tools manually.
-* See `_getManually.md` for all applications that may require manual
-  installation.
+* For a few tools lacking Homebrew support, manual installation is the easiest
+  option. See `_getManually.md` for a working list of such tools.
 
 
-__For Updates:__ 
+__To Update:__ 
 ```bash
 brew upgrade brew-cask && brew cask cleanup
 brew update && brew upgrade && brew cleanup

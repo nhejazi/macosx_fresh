@@ -16,5 +16,7 @@ if [ -e ~/.vimrc]; then
   rm -f ~/.vimrc; 
 fi
 
-git clone git@github.com:nhejazi/myvimconfig.git ~/.vim
+git clone http://github.com/nhejazi/myvimconfig.git ~/.vim
 sh ~/.vim/_setup.sh
+
+git clone http://github.com/nhejazi/myneovimconfig.git ~/.config/nvim
