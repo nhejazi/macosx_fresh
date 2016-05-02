@@ -20,3 +20,4 @@ git clone http://github.com/nhejazi/myvimconfig.git ~/.vim
 sh ~/.vim/_setup.sh
 
 git clone http://github.com/nhejazi/myneovimconfig.git ~/.config/nvim
+sh ~/.config/nvim/_setup.sh
