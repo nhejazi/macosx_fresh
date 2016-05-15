@@ -1,6 +1,8 @@
 # Fresh Mac OS X
 > Customization of fresh OS X installs with [Homebrew](http://brew.sh/).
 
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 My set of customization scripts to set up Mac OS X with my preferences in mind.
 
 **Directions/Roadmap**
