@@ -16,3 +16,6 @@ brew install wget git coreutils curl
 brew install zmq czmq libzmq3
 brew install libsvg libxml2 gdal geos boost
 brew cask install font-fira-code font-fontawesome
+
+# get brew-rmtree to remove packages and dependencies safely
+brew tap beeftornado/rmtree && brew install brew-rmtree
