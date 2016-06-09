@@ -23,11 +23,13 @@ First, install
 9. `source ~/.bashrc ~/.bash_profile`
 10. `rm -rf ~/freshOSX`
 
+_N.B._, package libraries for R, Python, Julia, and other standard tools may be 
+set up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).
+
 **Manual Installation**
 
 * For a few tools lacking Homebrew support, manual installation is the easiest
   option. See `_getManually.md` for a working list of such tools.
-
 
 __To Update:__ 
 ```bash
