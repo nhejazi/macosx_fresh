@@ -1,5 +1,8 @@
 #!/usr/local/bin/bash
 
+# install Google Chrome
+brew cask install google-chrome
+
 # install Java and Xquartz
 brew cask install xquartz
 brew cask install java
