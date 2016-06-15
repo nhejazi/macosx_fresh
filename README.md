@@ -7,21 +7,18 @@ My set of customization scripts to set up Mac OS X with my preferences in mind.
 
 **Directions/Roadmap**
 
-First, install 
-[Google Chrome](https://www.google.com/chrome/browser/desktop/index.html), 
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), and then 
-[MacTeX](https://tug.org/mactex/downloading.html) -- __all manually__.
+First, install
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and then 
+[MacTeX](https://tug.org/mactex/downloading.html) -- __both manually__.
 
 1. `git clone http://github.com/nhejazi/freshOSX.git ~/freshOSX`
-2. `sh ~/freshOSX/_getBrew.sh`
-3. `sh ~/freshOSX/_getRuby.sh`
-4. `sh ~/freshOSX/_getMyVim.sh`
-5. `sh ~/freshOSX/_getCoreTools.sh`
-6. `sh ~/freshOSX/_getHammerspoon.sh`
-7. `sh ~/freshOSX/_getShellConfig.sh`
-8. `sh ~/freshOSX/_getCoreLangs.sh`
-9. `source ~/.bashrc ~/.bash_profile`
-10. `rm -rf ~/freshOSX`
+2. `sh ~/freshOSX/_getBrewCore.sh`
+3. `sh ~/freshOSX/_getMyVim.sh`
+4. `sh ~/freshOSX/_getCoreTools.sh`
+5. `sh ~/freshOSX/_getHammerspoon.sh`
+6. `sh ~/freshOSX/_getCoreLangs.sh`
+7. `source ~/.bashrc ~/.bash_profile`
+8. `rm -rf ~/freshOSX`
 
 _N.B._, package libraries for R, Python, Julia, and other standard tools may be 
 set up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).
@@ -33,7 +30,6 @@ set up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).
 
 __To Update:__ 
 ```bash
-brew upgrade brew-cask && brew cask cleanup
 brew update && brew upgrade && brew cleanup
 ```
 
