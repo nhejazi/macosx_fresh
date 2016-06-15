@@ -1,7 +1,6 @@
-#!/usr/bin/bash
+#!/usr/local/bin/bash
 
-# install Lua language, Hammerspoon utility
-brew install lua
+# install Hammerspoon tool
 brew cask install hammerspoon
 
 # set up preferred configuration of Hammerspoon
@@ -9,4 +8,4 @@ if [-e ~/.hammerspoon]; then
   rm -rf ~/.hammerspoon; 
 fi
 
-git clone git@github.com:nhejazi/myhammerspoon.git ~/.hammerspoon
+git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
