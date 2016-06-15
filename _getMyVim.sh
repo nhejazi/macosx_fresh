@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/local/bin/bash
 
 # get Vim and MacVim
 export PATH=/usr/local/bin:$PATH
