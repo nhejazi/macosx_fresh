@@ -16,3 +16,6 @@ brew update && brew upgrade julia
 
 # install Scala
 brew install scala --with-docs
+
+# install Lua
+brew install lua
