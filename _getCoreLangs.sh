@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/local/bin/bash
 
 # install Python 2 and 3
 brew install python
@@ -7,7 +7,7 @@ brew install python3
 # install R and RStudio
 brew install R
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
-brew install Caskroom/cask/rstudio
+brew cask install rstudio
 
 # install Julia
 brew tap staticfloat/julia
