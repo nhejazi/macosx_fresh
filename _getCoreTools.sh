@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/local/bin/bash
 
 # install terminal and text editor
 brew cask install iterm2
@@ -6,7 +6,7 @@ brew cask install atom
 brew cask install black-screen
 
 # install Java and Xquartz
-brew install Caskroom/cask/xquartz
+brew cask install xquartz
 brew cask install java
 
 # more scientific computing tools
