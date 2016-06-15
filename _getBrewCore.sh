@@ -19,3 +19,7 @@ brew cask install font-fira-code font-fontawesome
 
 # get brew-rmtree to remove packages and dependencies safely
 brew tap beeftornado/rmtree && brew install brew-rmtree
+
+# setup my dotfiles
+git clone https://github.com/nhejazi/mydotfiles.git ~/.dotfiles
+sh ~/.dotfiles/_setup.sh
