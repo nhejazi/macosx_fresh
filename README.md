@@ -5,7 +5,9 @@
 
 My set of customization scripts to set up Mac OS X with my preferences in mind.
 
-**Directions/Roadmap**
+--
+
+## Directions/Roadmap
 
 First, install
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and then 
@@ -20,18 +22,23 @@ First, install
 7. `source ~/.bashrc ~/.bash_profile`
 8. `rm -rf ~/freshOSX`
 
-_N.B._, package libraries for R, Python, Julia, and other standard tools may be 
-set up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).
-
-**Manual Installation**
+### Manual Installation
 
 * For a few tools lacking Homebrew support, manual installation is the easiest
   option. See `_getManually.md` for a working list of such tools.
 
-__To Update:__ 
+
+__Update with `brew`__ 
 ```bash
 brew update && brew upgrade && brew cleanup
 ```
+
+---
+
+## On Package Libraries
+
+__N.B., package libraries for R, Python, Julia, and other tools I use may be 
+set up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).__
 
 ---
 
