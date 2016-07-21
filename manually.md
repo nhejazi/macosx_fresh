@@ -1,4 +1,4 @@
-# Manual Downloads for OS X:
+# Manual Install for macOS:
 
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
@@ -6,10 +6,10 @@
 
 * [Spotify Music App](https://www.spotify.com/us/)
 
-* [FB Messenger](http://fbmacmessenger.rsms.me/)
-
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
- 
+
+* [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
+
 * [Hemingway Writing Tool](http://www.hemingwayapp.com/)
 
-* [Rodeo Python IDE](bareback.s.yhat.com)
+* [Rodeo Python Data Science IDE](bareback.s.yhat.com)
