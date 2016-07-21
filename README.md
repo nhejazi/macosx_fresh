@@ -11,14 +11,14 @@ installs.
 
 ## Directions/Roadmap
 
-First, install
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and then
-[MacTeX](https://tug.org/mactex/downloading.html) -- __both manually__.
+First, __manually install__ both
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and
+[MacTeX](https://tug.org/mactex/downloading.html).
 
 1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
 2. `sh $(readlink -f ~/macOS-fresh)/_brewCore.sh`
-3. `sh $(readlink -f ~/macOS-fresh)/_brewUtils.sh`
-4. `sh $(readlink -f ~/macOS-fresh)/_brewLangs.sh`
+3. `sh $(readlink -f ~/macOS-fresh)/_brewLangs.sh`
+4. `sh $(readlink -f ~/macOS-fresh)/_brewUtils.sh`
 5. `sh $(readlink -f ~/macOS-fresh)/_brewTools.sh`
 6. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
 7. `source ~/.bashrc ~/.bash_profile`
@@ -27,8 +27,8 @@ First, install
 
 ### Manual Installation
 
-* For several select tools, manual installation is the easiest option.
-  See `manually.md` for a working list of such tools.
+* For several select tools, manual installation appears to be the easiest
+  option. See `manually.md` for a working list of such tools.
 
 
 ### Updates with `brew`
@@ -36,6 +36,7 @@ First, install
 brew update && brew upgrade
 brew cleanup
 ```
+
 
 ---
 

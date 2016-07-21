@@ -12,7 +12,8 @@ git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
 # add scientific computing utilities
-brew install pandoc cairo qt node
+brew install node mysql
+brew install pandoc cairo qt
 brew install libtiff libjpeg webp little-cms2
 brew install graphviz --with-librsvg --with-x11
 brew install imagemagick --with-fftw --with-librsvg --with-x11

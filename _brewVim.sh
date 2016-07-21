@@ -1,21 +1,9 @@
 #!/usr/local/bin/bash
 
-# get Vim and MacVim
-export PATH=/usr/local/bin:$PATH
+# get Vim and NeoVim
 brew update
-brew install vim && brew install macvim
+brew install vim
 brew install neovim/neovim/neovim
-brew linkapps macvim
-
-
-# setup preferred configuration for Vim/MacVim
-if [ -e ~/.vim ]; then
-  rm -rf ~/.vim;
-fi
-
-if [ -e ~/.vimrc]; then
-  rm -f ~/.vimrc;
-fi
 
 
 # get and setup config files for using Vim

@@ -1,4 +1,4 @@
-# Manual Install for macOS:
+# Manual Install List for macOS:
 
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
@@ -10,6 +10,6 @@
 
 * [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
 
-* [Hemingway Writing Tool](http://www.hemingwayapp.com/)
-
 * [Rodeo Python Data Science IDE](bareback.s.yhat.com)
+
+* [Hemingway Writing Tool](http://www.hemingwayapp.com/)
