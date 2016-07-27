@@ -1,16 +1,17 @@
 #!/usr/local/bin/bash
 
-# install Google Chrome and Hammerspoon management tool
+
+# add Google Chrome and Hammerspoon (management utility)
 brew cask install google-chrome
 brew cask install hammerspoon
 
 
-# add Java and Xquartz
+# add Java and X-quartz
 brew cask install xquartz
 brew cask install java
 
 
-# add terminals and text editor
+# add terminal emulators and text editors
 brew cask install hyperterm
 brew cask install iterm2
 brew cask install atom
@@ -20,7 +21,11 @@ brew cask install atom
 brew cask install marp
 
 
-# add "termpdf" tool and dependencies
+# add packer (for managing AMI creation)
+brew install packer
+
+
+# add term-PDF tool and dependencies
 brew install poppler ghostscript djvulibre
 git clone https://github.com/dsanson/termpdf.git ~/.termpdf
 ln -s ~/.termpdf/termpdf /usr/local/bin/termpdf

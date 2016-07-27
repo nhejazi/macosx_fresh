@@ -1,4 +1,4 @@
-# Manual Install List for macOS:
+# Manual Install List for macOS / Mac OS X:
 
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
@@ -6,10 +6,12 @@
 
 * [Spotify Music App](https://www.spotify.com/us/)
 
+* [Docker Containers](https://docs.docker.com/v1.8/installation/mac/)
+
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
 
 * [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
 
 * [Rodeo Python Data Science IDE](bareback.s.yhat.com)
 
-* [Hemingway Writing Tool](http://www.hemingwayapp.com/)
+* [Hemingway Writing Helper App](http://www.hemingwayapp.com/)

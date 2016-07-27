@@ -1,5 +1,6 @@
 #!/usr/local/bin/bash
 
+
 # add Mac-CLI management tool
 sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
 

@@ -24,11 +24,14 @@ First, __manually install__ both
 7. `source ~/.bashrc ~/.bash_profile`
 8. `rm -rf $(readlink -f ~/macOS-fresh)`
 
+__N.B.__, the included `Makefile` has a single recipe (`make machine`), which
+runs these setup scripts in the appropriate order _(though it is untested)_.
+
 
 ### Manual Installation
 
 * For several select tools, manual installation appears to be the easiest
-  option. See `manually.md` for a working list of such tools.
+  option. See `manualInstall.md` for a list of such tools.
 
 
 ### Updates with `brew`
