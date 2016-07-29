@@ -22,8 +22,8 @@ brew install imagemagick --with-fftw --with-librsvg --with-x11
 
 # add command line utilities for git diff, speed test, StackOverflow
 npm install --global diff-so-fancy
-npm install --global fast-cli
 npm install --global how2
+npm install --global hpm-cli
 
 
 # add Jekyll utility for web blogging
