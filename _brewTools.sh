@@ -22,12 +22,16 @@ brew cask install flux
 brew cask install lumen
 
 
+# add packer (for managing AMI creation)
+brew install packer
+
+
 # add Markdown presentation tool
 brew cask install marp
 
 
-# add packer (for managing AMI creation)
-brew install packer
+# add Numi (it's just a cool calculator)
+brew cask install numi
 
 
 # add term-PDF tool and dependencies
