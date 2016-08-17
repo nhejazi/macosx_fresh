@@ -17,6 +17,10 @@ brew cask install iterm2
 brew cask install atom
 
 
+# add Sourcetree to explore git histories
+brew cask install sourcetree
+
+
 # add screen/brightness adjustment tools
 brew cask install flux
 brew cask install lumen
