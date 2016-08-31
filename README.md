@@ -26,21 +26,22 @@ First, __manually install__ both
 9. `rm -rf $(readlink -f ~/macOS-fresh)`
 
 __N.B.__, the included `Makefile` has a single recipe (`make machine`), which
-runs these setup scripts in the appropriate order _(though it is untested)_.
+runs these setup scripts in the appropriate order; use of the `Makefile` remains
+untested.
 
 
 ### Manual Installation
 
-* For several select tools, manual installation appears to be the easiest
-  option. See `manualInstall.md` for a list of such tools.
+* For several select tools, manual installation is the easiest option. See
+  `manualInstall.md` for a list of such tools.
 
 
 ### Updates with `brew`
 ```bash
-brew update && brew upgrade
+brew update
+brew upgrade --all
 brew cleanup
 ```
-
 
 ---
 
