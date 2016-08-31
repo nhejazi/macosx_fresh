@@ -1,9 +1,10 @@
 #!/usr/local/bin/bash
 
 
-# add Google Chrome and Hammerspoon (management utility)
+# add Google Chrome, Dropbox, Hammerspoon
 brew cask install google-chrome
 brew cask install hammerspoon
+brew cask install dropbox
 
 
 # add Java and X-quartz
@@ -11,14 +12,14 @@ brew cask install xquartz
 brew cask install java
 
 
-# add terminal emulators and text editors
+# add various terminal emulators
 brew cask install hyperterm
+brew cask install black-screen
 brew cask install iterm2
+
+
+# add various text editors
 brew cask install atom
-
-
-# add Sourcetree to explore git histories
-brew cask install sourcetree
 
 
 # add screen/brightness adjustment tools
@@ -26,16 +27,10 @@ brew cask install flux
 brew cask install lumen
 
 
-# add packer (for managing AMI creation)
-brew install packer
-
-
-# add Markdown presentation tool
-brew cask install marp
-
-
-# add Numi (it's just a cool calculator)
-brew cask install numi
+# add miscellaneous tools
+brew cask install sourcetree  # GUI for Git
+brew cask install marp  # Markdown presentation tool
+brew cask install numi  # just a cool-looking calculator
 
 
 # add term-PDF tool and dependencies
@@ -48,3 +43,4 @@ chmod u+x /usr/local/bin/termpdf
 # add command line tools for Genomics
 brew install samtools  # for genomic alignments
 brew install bedtools  # for genomic annotations
+brew install cufflinks  # for genomic alignments

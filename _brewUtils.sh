@@ -18,6 +18,7 @@ brew install pandoc cairo qt
 brew install libtiff libjpeg webp little-cms2
 brew install graphviz --with-librsvg --with-x11
 brew install imagemagick --with-fftw --with-librsvg --with-x11
+brew install packer
 
 
 # add command line utilities for git diff, speed test, StackOverflow

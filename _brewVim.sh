@@ -1,5 +1,6 @@
 #!/usr/local/bin/bash
 
+
 # get Vim and NeoVim
 brew update
 brew install vim
