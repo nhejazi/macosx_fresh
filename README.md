@@ -20,9 +20,10 @@ First, __manually install__ both
 3. `sh $(readlink -f ~/macOS-fresh)/_brewLangs.sh`
 4. `sh $(readlink -f ~/macOS-fresh)/_brewUtils.sh`
 5. `sh $(readlink -f ~/macOS-fresh)/_brewTools.sh`
-6. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
-7. `source ~/.bashrc ~/.bash_profile`
-8. `rm -rf $(readlink -f ~/macOS-fresh)`
+6. `sh $(readlink -f ~/macOS-fresh)/_brewDocker.sh`
+7. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
+8. `source ~/.bashrc ~/.bash_profile`
+9. `rm -rf $(readlink -f ~/macOS-fresh)`
 
 __N.B.__, the included `Makefile` has a single recipe (`make machine`), which
 runs these setup scripts in the appropriate order _(though it is untested)_.

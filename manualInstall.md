@@ -6,8 +6,6 @@
 
 * [Spotify Music App](https://www.spotify.com/us/)
 
-* [Docker Containers](https://docs.docker.com/v1.8/installation/mac/)
-
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
 
 * [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
