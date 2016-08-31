@@ -7,7 +7,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 
 # install "user Ruby" to replace "system Ruby"
-brew install rbenv ruby-build
+brew install rbenv
+brew install ruby-build
 rbenv install 2.2.3
 rbenv global 2.2.3
 
@@ -36,3 +37,7 @@ brew install sbt
 
 # install Lua
 brew install lua
+
+
+# install node.js
+brew install node

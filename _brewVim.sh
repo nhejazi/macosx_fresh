@@ -3,7 +3,7 @@
 
 # get Vim and NeoVim
 brew update
-brew install vim
+brew install vim --override-system-vi
 brew install neovim/neovim/neovim
 
 
