@@ -5,6 +5,7 @@
 brew update
 brew install vim --with-override-system-vi
 brew install neovim/neovim/neovim
+brew cask install vimr # GUI for Neovim
 
 
 # get and setup config files for using Vim
