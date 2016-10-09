@@ -10,7 +10,7 @@ brew update
 
 
 # upgrade any formulae already installed
-brew upgrade --all
+brew upgrade
 
 
 # get Homebrew essentials
@@ -59,7 +59,7 @@ brew tap beeftornado/rmtree && brew install brew-rmtree
 
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydotfiles.git ~/.dotfiles
-sh ~/.dotfiles/_setup.sh
+sh ~/.dotfiles/_linkDots.sh
 
 
 # remove outdated versions of stuff from cellar

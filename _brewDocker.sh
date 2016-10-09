@@ -1,13 +1,9 @@
 #!/usr/local/bin/bash
 
 
-# before getting Docker, Virtualbox needs to be installed
-brew cask install Virtualbox
-
-
-# install Docker and related applications via Homebrew Cask
-brew cask install dockertoolbox
-
+# install Docker and toolbox
+brew cask install virtualbox
+brew cask install docker-toolbox
 
 # add Vagrant for managing virtual machines/environments
 brew cask install vagrant

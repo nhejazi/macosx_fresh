@@ -1,11 +1,8 @@
 # Fresh macOS
-> Customization of fresh macOS (and formerly Mac OS X) installs with
-> [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
-
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-My set of customization scripts to configure macOS to my preferences after fresh
-installs.
+> Customization scripts for fresh (re)installs on macOS with
+> [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
 
 ---
 
@@ -33,22 +30,22 @@ untested.
 ### Manual Installation
 
 * For several select tools, manual installation is the easiest option. See
-  `manualInstall.md` for a list of such tools.
+  `manual-install.md` for a list of such tools.
 
 
 ### Updates with `brew`
 ```bash
 brew update
-brew upgrade --all
+brew upgrade
 brew cleanup
 ```
 
 ---
 
-## On Package Libraries
+## Package Libraries
 
-__N.B., package libraries for R, Python, Julia, and other tools I use may be set
-up via scripts from [nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib).__
+* __[nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib)__ - a working list
+  of packages to be used alongside the core software in this repo.
 
 ---
 

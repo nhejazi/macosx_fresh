@@ -3,15 +3,19 @@
 
 # get Vim and NeoVim
 brew update
-brew install vim --override-system-vi
+brew install vim --with-override-system-vi
 brew install neovim/neovim/neovim
 
 
 # get and setup config files for using Vim
-git clone http://github.com/nhejazi/myvimconfig.git ~/.vim
+if [ ! -d $(echo ~/.vim) ]; then
+  git clone http://github.com/nhejazi/myvimconfig.git ~/.vim
+fi
 sh ~/.vim/_setup.sh
 
 
 # get and setup config files for using Neovim
-git clone http://github.com/nhejazi/myneovimconfig.git ~/.config/nvim
+if [ ! -d $(echo ~/.config/nvim) ]; then
+  git clone http://github.com/nhejazi/myneovimconfig.git ~/.config/nvim
+fi
 sh ~/.config/nvim/_setup.sh

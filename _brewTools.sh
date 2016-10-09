@@ -13,9 +13,9 @@ brew cask install java
 
 
 # add various terminal emulators
-brew cask install hyperterm
-brew cask install black-screen
+brew cask install hyper
 brew cask install iterm2
+brew cask install black-screen
 
 
 # add various text editors

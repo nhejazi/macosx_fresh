@@ -10,6 +10,6 @@
 
 * [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
 
-* [Rodeo Python Data Science IDE](bareback.s.yhat.com)
+* [Rodeo Python Data Science IDE](https://github.com/yhat/rodeo)
 
 * [Hemingway Writing Helper App](http://www.hemingwayapp.com/)
