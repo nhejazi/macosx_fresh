@@ -53,6 +53,10 @@ brew install zsh-completions
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
+# get tmux (for multiplexing terminals)
+brew install tmux
+
+
 # get The Silver Searcher (for fast file searching)
 brew install the_silver_searcher
 
