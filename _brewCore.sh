@@ -53,6 +53,10 @@ brew install zsh-completions
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
+# get The Silver Searcher (for fast file searching)
+brew install the_silver_searcher
+
+
 # get brew-rmtree to remove packages and dependencies safely
 brew tap beeftornado/rmtree && brew install brew-rmtree
 
