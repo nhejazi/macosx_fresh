@@ -1,16 +1,23 @@
 # Fresh macOS
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-> Customization scripts for fresh (re)installs on macOS with
+[![MIT
+license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
+> Customization scripts for fresh (re)installs of macOS with
 > [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
 
 ---
 
-## Directions/Roadmap
+## Directions
 
 First, __manually install__ both
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and
 [MacTeX](https://tug.org/mactex/downloading.html).
+
+_The step-by-step procedure is given below in case any problems arise during the
+installation process_, for simplicity invoke the [GNU
+Make](https://www.gnu.org/software/make/)) recipe from the `Makefile` provided
+with the command `make machine`.
 
 1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
 2. `sh $(readlink -f ~/macOS-fresh)/_brewCore.sh`
@@ -19,24 +26,20 @@ First, __manually install__ both
 5. `sh $(readlink -f ~/macOS-fresh)/_brewTools.sh`
 6. `sh $(readlink -f ~/macOS-fresh)/_brewDocker.sh`
 7. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
-8. `source ~/.bashrc ~/.bash_profile`
-9. `rm -rf $(readlink -f ~/macOS-fresh)`
 
-__N.B.__, the included `Makefile` has a single recipe (`make machine`), which
-runs these setup scripts in the appropriate order; use of the `Makefile` remains
-untested.
+__N.B.__, as 17 November 2016, use of the included recipe for [GNU
+Make](https://www.gnu.org/software/make/) remains untested.
 
 
-### Manual Installation
+### Manual Installations
 
 * For several select tools, manual installation is the easiest option. See
-  `manual-install.md` for a list of such tools.
+  `installManual.md` for a list of such tools.
 
 
-### Updates with `brew`
+### Updates with [Homebrew](http://brew.sh)
 ```bash
-brew update
-brew upgrade
+brew update && brew upgrade
 brew cleanup
 ```
 

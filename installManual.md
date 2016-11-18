@@ -1,4 +1,4 @@
-# Manual Install List for macOS / Mac OS X:
+# Manual Install List for macOS:
 
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
@@ -9,7 +9,5 @@
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
 
 * [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
-
-* [Rodeo Python Data Science IDE](https://github.com/yhat/rodeo)
 
 * [Hemingway Writing Helper App](http://www.hemingwayapp.com/)
