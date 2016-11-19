@@ -16,7 +16,7 @@ First, __manually install__ both
 
 _The step-by-step procedure is given below in case any problems arise during the
 installation process_, for simplicity invoke the [GNU
-Make](https://www.gnu.org/software/make/)) recipe from the `Makefile` provided
+Make](https://www.gnu.org/software/make/) recipe from the `Makefile` provided
 with the command `make machine`.
 
 1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
@@ -27,7 +27,7 @@ with the command `make machine`.
 6. `sh $(readlink -f ~/macOS-fresh)/_brewDocker.sh`
 7. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
 
-__N.B.__, as 17 November 2016, use of the included recipe for [GNU
+__N.B.__, as of 17 November 2016, use of the included recipe for [GNU
 Make](https://www.gnu.org/software/make/) remains untested.
 
 
