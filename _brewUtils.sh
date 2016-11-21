@@ -12,9 +12,7 @@ fi
 git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
-# add scientific computing utilities
-brew install mysql
-brew install pandoc
+# add convenience utilities
 brew install cairo
 brew install qt
 brew install libtiff
@@ -23,7 +21,10 @@ brew install webp
 brew install little-cms2
 brew install graphviz --with-librsvg --with-x11
 brew install imagemagick --with-fftw --with-librsvg --with-x11
-brew install packer
+brew install mysql
+brew install pandoc # markup language conversion tool
+brew install asciinema # text-based terminal recording tool
+brew install packer # tool of creating machine/container images
 
 
 # add command line utilities for git diff, speed test, StackOverflow
