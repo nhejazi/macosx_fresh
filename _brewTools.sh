@@ -15,22 +15,16 @@ brew cask install java
 # add various terminal emulators
 brew cask install hyper
 brew cask install iterm2
-brew cask install black-screen
 
 
-# add various text editors
+# add Atom (editor) and SourceTree
 brew cask install atom
+brew cask install sourcetree  # GUI for Git
 
 
 # add screen/brightness adjustment tools
 brew cask install flux
 brew cask install lumen
-
-
-# add miscellaneous tools
-brew cask install sourcetree  # GUI for Git
-brew cask install marp  # Markdown presentation tool
-brew cask install numi  # just a cool-looking calculator
 
 
 # add term-PDF tool and dependencies
@@ -41,6 +35,7 @@ chmod u+x /usr/local/bin/termpdf
 
 
 # add command line tools for Genomics
-brew install samtools  # for genomic alignments
-brew install bedtools  # for genomic annotations
-brew install cufflinks  # for genomic alignments
+brew install samtools  # for alignments
+brew install bedtools  # for annotations
+brew install cufflinks  # for alignments
+brew install kallisto # for pseudoalignment
