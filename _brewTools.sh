@@ -12,13 +12,15 @@ brew cask install xquartz
 brew cask install java
 
 
-# add various terminal emulators
+# add terminal emulators
 brew cask install hyper
 brew cask install iterm2
+brew cask install black-screen
 
 
-# add Atom (editor) and SourceTree
+# add Atom, GitHub Desktop, SourceTree
 brew cask install atom
+brew cask install github-desktop  # GUI for Git
 brew cask install sourcetree  # GUI for Git
 
 
