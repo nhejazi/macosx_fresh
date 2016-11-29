@@ -16,13 +16,12 @@ brew cask install anybar
 # add terminal emulators
 brew cask install hyper
 brew cask install iterm2
-#brew cask install black-screen
 
 
-# add Atom, GitHub Desktop, SourceTree
-brew cask install atom
+# add Atom, VimR, GitHub Desktop, SourceTree
+brew cask install atom  # text editor
+brew cask install vimr  # GUI for Neovim
 brew cask install github-desktop  # GUI for Git
-#brew cask install sourcetree  # GUI for Git
 
 
 # add screen/brightness adjustment tools
