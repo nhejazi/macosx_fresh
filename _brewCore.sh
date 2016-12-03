@@ -61,10 +61,6 @@ brew install tmux
 brew install the_silver_searcher
 
 
-# get brew-rmtree to remove packages and dependencies safely
-brew tap beeftornado/rmtree && brew install brew-rmtree
-
-
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydotfiles.git ~/.dotfiles
 sh ~/.dotfiles/_linkDots.sh
