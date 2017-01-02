@@ -36,3 +36,7 @@ npm install --global hpm-cli
 
 # add Jekyll utility for web blogging
 gem install jekyll
+
+
+# add utility to get wifi password
+brew install wifi-password
