@@ -41,18 +41,6 @@ brew cask install font-fira-code
 brew cask install font-fontawesome
 
 
-# get newer bash and completions
-brew install bash
-brew tap homebrew/versions
-brew install bash-completions2
-
-
-# get zsh, completions, and oh-my-zsh framework
-brew install zsh
-brew install zsh-completions
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-
 # get tmux (for multiplexing terminals)
 brew install tmux
 
@@ -64,6 +52,18 @@ brew install the_silver_searcher
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydotfiles.git ~/.dotfiles
 sh ~/.dotfiles/_linkDots.sh
+
+
+# get newer bash and completions
+brew install bash
+brew tap homebrew/versions
+brew install bash-completions2
+
+
+# get zsh, zsh-completions, and z-plug manager
+brew install zsh
+brew install zsh-completions
+curl -sL zplug.sh/installer | zsh
 
 
 # remove outdated versions of stuff from cellar
