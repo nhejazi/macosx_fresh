@@ -22,10 +22,11 @@ brew install little-cms2
 brew install graphviz --with-librsvg --with-x11
 brew install imagemagick --with-fftw --with-librsvg --with-x11
 brew install mysql
-brew install pandoc # markup language conversion tool
-brew install asciinema # text-based terminal recording tool
-brew install packer # tool of creating machine/container images
-brew install hub # wrapper around git that makes using GitHub easier
+brew install pandoc  # markup language conversion tool
+brew install asciinema  # text-based terminal recording tool
+brew install packer  # create machine/container images
+brew install qpdf  # PDF-transformation utility
+brew install hub  # GitHub wrapper around git
 
 
 # add command line utilities for git diff, speed test, StackOverflow
