@@ -17,6 +17,7 @@ brew cask install rodeo #IDE
 # install R and RStudio
 brew install R
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+brew install r-gui #R.app
 brew cask install rstudio #IDE
 
 
