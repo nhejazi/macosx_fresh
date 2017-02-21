@@ -18,7 +18,7 @@ brew cask install hyper
 brew cask install iterm2
 
 
-# add Atom, VimR, GitHub Desktop, SourceTree
+# add Atom, VimR, GitHub Desktop
 brew cask install atom  # text editor
 brew cask install vimr  # GUI for Neovim
 brew cask install github-desktop  # GUI for Git
@@ -29,11 +29,8 @@ brew cask install flux
 brew cask install lumen
 
 
-# add term-PDF tool and dependencies
-brew install poppler ghostscript djvulibre
-git clone https://github.com/dsanson/termpdf.git ~/.termpdf
-ln -s ~/.termpdf/termpdf /usr/local/bin/termpdf
-chmod u+x /usr/local/bin/termpdf
+# add Marp (Markdown presentation tool)
+brew cask install marp
 
 
 # add command line tools for Genomics
