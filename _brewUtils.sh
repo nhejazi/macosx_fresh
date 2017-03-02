@@ -29,15 +29,17 @@ brew install qpdf  # PDF-transformation utility
 brew install hub  # GitHub wrapper around git
 
 
-# add command line utilities for git diff, speed test, StackOverflow
-npm install --global diff-so-fancy
-npm install --global how2
-npm install --global hpm-cli
-
-
-# add Jekyll utility for web blogging
-gem install jekyll
+# add command line utilities via NPM
+npm install --global fkill-cli  # for killing system processes
+npm install --global hpm-cli  # utility for installing Hyper packages
+npm install --global speed-test  # testing connection speed using CLI
+npm install --global diff-so-fancy  # for nice looking diffs with git
+npm install --global how2  # for querying StackOverflow
 
 
 # add utility to get wifi password
 brew install wifi-password
+
+
+# add Jekyll utility for web blogging
+gem install jekyll

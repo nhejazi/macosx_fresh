@@ -10,7 +10,6 @@ brew cask install java
 brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install dropbox
-brew cask install anybar
 
 
 # add terminal emulators
@@ -18,22 +17,23 @@ brew cask install hyper
 brew cask install iterm2
 
 
-# add Atom, VimR, GitHub Desktop
+# add programming utilities (text editors, IDEs)
 brew cask install atom  # text editor
 brew cask install vimr  # GUI for Neovim
 brew cask install github-desktop  # GUI for Git
+brew cask install marp  # Markdown presentation tool
+brew cask install rstudio # IDE for R
+brew cask install rodeo  # IDE for Python
 
 
-# add screen/brightness adjustment tools
-brew cask install flux
-brew cask install lumen
+# add convenience utilities
+brew cask install flux  # auto-adjust brightness
+brew cask install lumen  # brightness/lighting adjustment
+brew cask install anybar  # customizable tabs
+brew cask install caprine  # FB messenger app
 
 
-# add Marp (Markdown presentation tool)
-brew cask install marp
-
-
-# add command line tools for Genomics
+# add command line tools for bioinformatics
 brew install kallisto  # for pseudo-alignment
 brew install samtools  # for alignments
 brew install bedtools  # for annotations

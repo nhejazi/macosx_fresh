@@ -11,14 +11,12 @@ rbenv global 2.2.3
 # install Python 2 and 3
 brew install python
 brew install python3
-brew cask install rodeo #IDE
 
 
 # install R and RStudio
 brew install R
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 brew install r-gui #R.app
-brew cask install rstudio #IDE
 
 
 # install Julia
