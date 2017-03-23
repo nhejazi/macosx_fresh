@@ -5,6 +5,10 @@
 sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
 
 
+# add Google Chrome command line tools (chrome-cli)
+brew install chrome-cli
+
+
 # add preferred configuration of Hammerspoon
 if [-e ~/.hammerspoon]; then
   rm -rf ~/.hammerspoon;
