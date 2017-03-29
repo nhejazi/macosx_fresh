@@ -57,7 +57,7 @@ sh ~/.dotfiles/_linkDots.sh
 # get newer bash and completions
 brew install bash
 brew tap homebrew/versions
-brew install bash-completions2
+brew install bash-completion2
 
 
 # get zsh, zsh-completions, and z-plug manager
