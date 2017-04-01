@@ -34,7 +34,8 @@ brew cask install caprine  # FB messenger app
 
 
 # add command line tools for bioinformatics
-brew install kallisto  # for pseudo-alignment
-brew install samtools  # for alignments
-brew install bedtools  # for annotations
-brew install cufflinks  # for alignments
+brew install bedtools  # toolkit for genome arithmetic
+brew install samtools  # alignment post-processing
+brew install kallisto  # RNA-seq pseudo-alignment
+brew install cufflinks  # RNA-seq transcript quantification
+brew install sratoolkit  # NCBI toolkit for SRA data
