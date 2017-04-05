@@ -17,12 +17,17 @@ brew cask install hyper
 brew cask install iterm2
 
 
+# add emacs editor (default Vim still)
+brew install emacs --with-cocoa
+brew linkapps emacs  # NOTE: linkapps to be deprecated soon
+
+
 # add programming utilities (text editors, IDEs)
 brew cask install atom  # text editor
 brew cask install vimr  # GUI for Neovim
 brew cask install github-desktop  # GUI for Git
 brew cask install marp  # Markdown presentation tool
-brew cask install rstudio # IDE for R
+brew cask install rstudio  # IDE for R
 brew cask install rodeo  # IDE for Python
 
 
@@ -31,11 +36,3 @@ brew cask install flux  # auto-adjust brightness
 brew cask install lumen  # brightness/lighting adjustment
 brew cask install anybar  # customizable tabs
 brew cask install caprine  # FB messenger app
-
-
-# add command line tools for bioinformatics
-brew install bedtools  # toolkit for genome arithmetic
-brew install samtools  # alignment post-processing
-brew install kallisto  # RNA-seq pseudo-alignment
-brew install cufflinks  # RNA-seq transcript quantification
-brew install sratoolkit  # NCBI toolkit for SRA data
