@@ -17,13 +17,15 @@ brew cask install hyper
 brew cask install iterm2
 
 
-# add emacs editor (default Vim still)
+# add MacVim and emacs editors
 brew install emacs --with-cocoa
 brew linkapps emacs  # NOTE: linkapps to be deprecated soon
+brew install macvim
+brew linkapps macvim  # NOTE: linkapps to be deprecated soon
 
 
 # add programming utilities (text editors, IDEs)
-brew cask install atom  # text editor
+brew cask install atom  # modern text editor
 brew cask install vimr  # GUI for Neovim
 brew cask install github-desktop  # GUI for Git
 brew cask install marp  # Markdown presentation tool
