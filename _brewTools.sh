@@ -25,8 +25,8 @@ brew linkapps macvim  # NOTE: linkapps to be deprecated soon
 
 
 # add programming utilities (text editors, IDEs)
-brew cask install atom  # modern text editor
-brew cask install vimr  # GUI for Neovim
+brew cask install atom  # modern text editor by GitHub
+brew cask install sublime-text  # popular modern text editor
 brew cask install github-desktop  # GUI for Git
 brew cask install marp  # Markdown presentation tool
 brew cask install rstudio  # IDE for R
