@@ -7,6 +7,11 @@ brew install vim --with-override-system-vi
 brew install neovim/neovim/neovim
 
 
+# add MacVim GUI
+brew install macvim
+brew linkapps macvim  # NOTE: linkapps will be deprecated soon
+
+
 # get and setup config files for using Vim
 if [ ! -d $(echo ~/.vim) ]; then
   git clone http://github.com/nhejazi/myvimconfig.git ~/.vim

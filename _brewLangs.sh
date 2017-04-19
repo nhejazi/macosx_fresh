@@ -16,7 +16,8 @@ brew install python3
 # install R and RStudio
 brew install R
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
-brew install r-gui #R.app
+brew install r-gui # R.app
+brew linkapps r-gui # NOTE: linkapps will be deprecated soon
 
 
 # install Julia

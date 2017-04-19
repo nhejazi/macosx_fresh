@@ -17,13 +17,6 @@ brew cask install hyper
 brew cask install iterm2
 
 
-# add MacVim and emacs editors
-brew install emacs --with-cocoa
-brew linkapps emacs  # NOTE: linkapps to be deprecated soon
-brew install macvim
-brew linkapps macvim  # NOTE: linkapps to be deprecated soon
-
-
 # add programming utilities (text editors, IDEs)
 brew cask install atom  # modern text editor by GitHub
 brew cask install sublime-text  # popular modern text editor
