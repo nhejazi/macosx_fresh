@@ -17,12 +17,12 @@ Make](https://www.gnu.org/software/make/) recipe from the `Makefile` provided
 with the command `make machine`.
 
 1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
-2. `sh $(readlink -f ~/macOS-fresh)/_brewCore.sh`
-3. `sh $(readlink -f ~/macOS-fresh)/_brewLangs.sh`
-4. `sh $(readlink -f ~/macOS-fresh)/_brewUtils.sh`
-5. `sh $(readlink -f ~/macOS-fresh)/_brewTools.sh`
-6. `sh $(readlink -f ~/macOS-fresh)/_brewDocker.sh`
-7. `sh $(readlink -f ~/macOS-fresh)/_brewVim.sh`
+2. `sh ~/macOS-fresh/coreBrew.sh`
+3. `sh ~/macOS-fresh/langsBrew.sh`
+4. `sh ~/macOS-fresh/utilsBrew.sh`
+5. `sh ~/macOS-fresh/toolsBrew.sh`
+6. `sh ~/macOS-fresh/dockerBrew.sh`
+7. `sh ~/macOS-fresh/vimBrew.sh`
 
 __N.B.__, as of 17 November 2016, use of the included recipe for [GNU
 Make](https://www.gnu.org/software/make/) remains untested.
@@ -31,7 +31,7 @@ Make](https://www.gnu.org/software/make/) remains untested.
 ### Manual Installations
 
 * For several select tools, manual installation is the easiest option. See
-  `installManual.md` for a list of such tools.
+  `manualPkgs.md` for a list of such tools.
 
 
 ### Updates with [Homebrew](http://brew.sh)
@@ -45,7 +45,7 @@ brew cleanup
 ## Package Libraries
 
 * __[nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib)__ - a working list
-  of packages to be used alongside the core software in this repo.
+  of packages to be used alongside the core software distributed here.
 
 ---
 

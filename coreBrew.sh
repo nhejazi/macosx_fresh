@@ -13,10 +13,11 @@ brew update
 brew upgrade
 
 
-# get Homebrew essentials
+# tap Homebrew libraries
 brew tap caskroom/cask
-brew tap homebrew/science
 brew tap caskroom/fonts
+brew tap homebrew/science
+brew tap homebrew/versions
 
 
 # get XCode and core Homebrew tools
@@ -56,7 +57,6 @@ sh ~/.dotfiles/_linkDots.sh
 
 # get newer bash and completions
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 
 
