@@ -31,6 +31,7 @@ brew install hub  # GitHub wrapper around git
 brew install wifi-password  # get password for current WiFi
 brew install chrome-cli  # Google Chrome command line tools
 brew install thefuck  # correct incorrect console commands
+brew install git-flow-avh  # use the "Git flow" branching model
 
 
 # add command line utilities via NPM

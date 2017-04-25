@@ -27,6 +27,7 @@ brew install curl
 brew install coreutils
 brew install git
 brew install git-lfs
+brew install subversion
 brew install zmq
 brew install czmq
 brew install libzmq3
