@@ -6,10 +6,11 @@ brew cask install xquartz
 brew cask install java
 
 
-# add Google Chrome, Dropbox, Hammerspoon, AnyBar
+# add core apps (e.g., browser) 
 brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install dropbox
+brew cask install spotify
 
 
 # add terminal emulators

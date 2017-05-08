@@ -4,7 +4,7 @@
 
 * [MacTeX](https://tug.org/mactex/downloading.html)
 
-* [Spotify Music App](https://www.spotify.com/us/)
+* [Simplenote](https://simplenote.com/)
 
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
 
