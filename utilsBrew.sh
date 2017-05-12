@@ -42,5 +42,8 @@ npm install --global diff-so-fancy  # for nice looking diffs with git
 npm install --global how2  # for querying StackOverflow
 
 
+# add Hugo (modern web framework)
+brew install hugo
+
 # add Jekyll utility for web blogging
 gem install jekyll
