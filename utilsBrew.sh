@@ -28,10 +28,10 @@ brew install pandoc  # markup language conversion tool
 brew install asciinema  # text-based terminal recording tool
 brew install packer  # create machine/container images
 brew install hub  # GitHub wrapper around git
-brew install wifi-password  # get password for current WiFi
+brew install wifi-password  # get password for current Wi-Fi
+brew install git-flow-avh  # use the "Git flow" branching model
 brew install chrome-cli  # Google Chrome command line tools
 brew install thefuck  # correct incorrect console commands
-brew install git-flow-avh  # use the "Git flow" branching model
 
 
 # add command line utilities via NPM
@@ -42,7 +42,7 @@ npm install --global diff-so-fancy  # for nice looking diffs with git
 npm install --global how2  # for querying StackOverflow
 
 
-# add Hugo (modern web framework)
+# add Hugo (modern static site engine)
 brew install hugo
 
 # add Jekyll utility for web blogging

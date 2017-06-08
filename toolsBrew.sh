@@ -11,6 +11,7 @@ brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install dropbox
 brew cask install spotify
+brew cask install skype
 
 
 # add terminal emulators
