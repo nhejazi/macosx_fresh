@@ -12,6 +12,10 @@ fi
 git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 
 
+# add Hugo (modern static site engine)
+brew install hugo
+
+
 # add convenience utilities
 brew install cairo
 brew install qt
@@ -40,10 +44,3 @@ npm install --global hpm-cli  # utility for installing Hyper packages
 npm install --global speed-test  # testing connection speed using CLI
 npm install --global diff-so-fancy  # for nice looking diffs with git
 npm install --global how2  # for querying StackOverflow
-
-
-# add Hugo (modern static site engine)
-brew install hugo
-
-# add Jekyll utility for web blogging
-gem install jekyll
