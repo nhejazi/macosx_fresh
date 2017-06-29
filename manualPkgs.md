@@ -6,8 +6,8 @@
 
 * [Simplenote](https://simplenote.com/)
 
+* [Tad CSV Viewer](http://tadviewer.com/)
+
 * [Kiwi Gmail Client](http://kiwiforgmail.com/)
 
-* [Facebook Messenger App](http://fbmacmessenger.rsms.me/)
-
-* [Hemingway Writing Helper App](http://www.hemingwayapp.com/)
+* [Hemingway Writing Helper](http://www.hemingwayapp.com/)
