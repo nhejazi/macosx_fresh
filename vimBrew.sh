@@ -14,13 +14,13 @@ brew linkapps macvim  # NOTE: linkapps will be deprecated soon
 
 # get and setup config files for using Vim
 if [ ! -d $(echo ~/.vim) ]; then
-  git clone http://github.com/nhejazi/myvimconfig.git ~/.vim
+  git clone http://github.com/nhejazi/vimForLife.git ~/.vim
 fi
-sh ~/.vim/_setup.sh
+sh ~/.vim/_setupVim.sh
 
 
 # get and setup config files for using Neovim
 if [ ! -d $(echo ~/.config/nvim) ]; then
-  git clone http://github.com/nhejazi/myneovimconfig.git ~/.config/nvim
+  git clone http://github.com/nhejazi/vimForLife.git ~/.config/nvim
 fi
-sh ~/.config/nvim/_setup.sh
+sh ~/.config/nvim/_setupNeovim.sh
