@@ -1,14 +1,14 @@
 #!/usr/local/bin/bash
 
 
-# install "user Ruby" to replace "system Ruby"
+# install "user" Ruby to replace "system" Ruby
 brew install rbenv
 brew install ruby-build
 rbenv install 2.2.3
 rbenv global 2.2.3
 
 
-# install Python 2 and 3
+# install "user" Python 2.7.X and Python 3.X
 brew install python
 brew install python3
 
