@@ -13,6 +13,7 @@ brew cask install nomachine
 brew cask install dropbox
 brew cask install spotify
 brew cask install skype
+brew cask install slack
 
 
 # add terminal emulators
