@@ -6,7 +6,7 @@ brew cask install xquartz
 brew cask install java
 
 
-# add core apps (e.g., browser) 
+# add core applications
 brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install nomachine

@@ -39,6 +39,7 @@ brew install thefuck  # correct incorrect console commands
 
 
 # add command line utilities via NPM
+npm install --global now  # domain purchasing, aliasing, etc. (by Zeit)
 npm install --global fkill-cli  # for killing system processes
 npm install --global hpm-cli  # utility for installing Hyper packages
 npm install --global speed-test  # testing connection speed using CLI

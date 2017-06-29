@@ -4,6 +4,8 @@
 
 * [MacTeX](https://tug.org/mactex/downloading.html)
 
+* [Zeit `now`](https://zeit.co/download)
+
 * [Simplenote](https://simplenote.com/)
 
 * [Tad CSV Viewer](http://tadviewer.com/)
