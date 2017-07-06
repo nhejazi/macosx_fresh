@@ -7,6 +7,7 @@ brew cask install java
 
 
 # add core applications
+brew cask install firefox
 brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install nomachine
