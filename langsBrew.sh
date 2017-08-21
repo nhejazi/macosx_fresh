@@ -21,7 +21,7 @@ brew linkapps r-gui # NOTE: linkapps will be deprecated soon
 
 
 # install Julia
-brew tap staticfloat/julia
+brew tap dpo/julia
 brew install julia
 brew update && brew upgrade julia
 
