@@ -24,3 +24,4 @@ if [ ! -d $(echo ~/.config/nvim) ]; then
   git clone http://github.com/nhejazi/vimForLife.git ~/.config/nvim
 fi
 sh ~/.config/nvim/_setupNeovim.sh
+

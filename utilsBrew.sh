@@ -45,3 +45,4 @@ npm install --global hpm-cli  # utility for installing Hyper packages
 npm install --global speed-test  # testing connection speed using CLI
 npm install --global diff-so-fancy  # for nice looking diffs with git
 npm install --global how2  # for querying StackOverflow
+

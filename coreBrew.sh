@@ -36,6 +36,7 @@ brew install libxml2
 brew install gdal
 brew install geos
 brew install boost
+brew install gperftools
 
 
 # add some newer fonts via Cask
@@ -69,3 +70,4 @@ curl -sL zplug.sh/installer | zsh
 
 # remove outdated versions of stuff from cellar
 brew cleanup
+

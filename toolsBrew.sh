@@ -35,3 +35,4 @@ brew cask install flux  # auto-adjust brightness
 brew cask install lumen  # brightness/lighting adjustment
 brew cask install anybar  # customizable tabs
 brew cask install caprine  # FB messenger app
+

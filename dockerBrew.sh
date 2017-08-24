@@ -9,3 +9,4 @@ brew cask install docker-toolbox
 # add Vagrant for managing virtual machines/environments
 brew cask install vagrant
 brew cask install vagrant-manager
+
