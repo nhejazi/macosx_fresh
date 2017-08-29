@@ -35,8 +35,14 @@ brew install libsvg
 brew install libxml2
 brew install gdal
 brew install geos
-brew install boost
+brew install boost --c++11
 brew install gperftools
+
+
+# add some standard C++ ML tools
+brew install mlpack
+brew install shark
+brew install dlib
 
 
 # add some newer fonts via Cask
