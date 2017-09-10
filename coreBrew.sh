@@ -18,6 +18,7 @@ brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap homebrew/science
 brew tap homebrew/versions
+brew tap caskroom/versions
 
 
 # get XCode and core Homebrew tools
