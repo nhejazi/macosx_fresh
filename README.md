@@ -14,24 +14,24 @@ First, __manually install__ both
 _The step-by-step procedure is given below in case any problems arise during the
 installation process_, for simplicity invoke the [GNU
 Make](https://www.gnu.org/software/make/) recipe from the `Makefile` provided
-with the command `make machine`.
+with either of the commands `make` or `make machine`.
 
 1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
-2. `sh ~/macOS-fresh/coreBrew.sh`
-3. `sh ~/macOS-fresh/langsBrew.sh`
-4. `sh ~/macOS-fresh/utilsBrew.sh`
-5. `sh ~/macOS-fresh/toolsBrew.sh`
-6. `sh ~/macOS-fresh/dockerBrew.sh`
-7. `sh ~/macOS-fresh/vimBrew.sh`
+2. `sh ~/macOS-fresh/core.sh`
+3. `sh ~/macOS-fresh/langs.sh`
+4. `sh ~/macOS-fresh/utils.sh`
+5. `sh ~/macOS-fresh/tools.sh`
+6. `sh ~/macOS-fresh/docker.sh`
+7. `sh ~/macOS-fresh/vim.sh`
 
-__N.B.__, as of 17 November 2016, use of the included recipe for [GNU
-Make](https://www.gnu.org/software/make/) remains untested.
+__N.B.__, as of 14 September 2017, use of the included recipe for [GNU
+Make](https://www.gnu.org/software/make/) indicates that it functions properly.
 
 
 ### Manual Installations
 
 * For several select tools, manual installation is the easiest option. See
-  `manualPkgs.md` for a list of such tools.
+  `_manual.md` for a list of such tools.
 
 
 ### Updates with [Homebrew](http://brew.sh)
