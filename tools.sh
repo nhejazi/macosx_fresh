@@ -24,6 +24,7 @@ brew cask install iterm2
 
 
 # add programming utilities (text editors, IDEs)
+brew install micro  # a modern CLI text editor
 brew cask install atom  # modern text editor by GitHub
 brew cask install rstudio  # IDE for R
 #brew cask install rodeo  # IDE for Python
