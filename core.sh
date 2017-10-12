@@ -51,6 +51,10 @@ brew cask install font-fira-code
 brew cask install font-fontawesome
 
 
+# add mosh (mobile shell client)
+brew install mosh
+
+
 # get tmux (for multiplexing terminals)
 brew install tmux
 
