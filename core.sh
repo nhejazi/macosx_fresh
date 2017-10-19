@@ -63,6 +63,10 @@ brew install tmux
 brew install the_silver_searcher
 
 
+# get fzf (modern fuzzy finding of files)
+brew install fzf
+
+
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydotfiles.git ~/.dotfiles
 sh ~/.dotfiles/_linkDots.sh
