@@ -65,6 +65,7 @@ brew install the_silver_searcher
 
 # get fzf (modern fuzzy finding of files)
 brew install fzf
+$(brew --prefix)/opt/fzf/install
 
 
 # setup my dotfiles

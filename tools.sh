@@ -7,8 +7,7 @@ brew cask install java
 
 
 # add core applications
-#brew cask install firefox
-brew cask install firefoxnightly
+brew cask install firefox
 brew cask install google-chrome
 brew cask install hammerspoon
 brew cask install nomachine
@@ -29,7 +28,8 @@ brew cask install atom  # modern text editor by GitHub
 brew cask install rstudio  # IDE for R
 #brew cask install rodeo  # IDE for Python
 #brew cask install marp  # Markdown presentation tool
-brew cask install github-desktop  # GUI for Git
+#brew cask install github-desktop  # GUI for Git
+#brew cask install sourcetree  # Another GUI for Git
 
 
 # add convenience utilities

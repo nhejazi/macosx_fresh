@@ -21,9 +21,10 @@ brew linkapps r-gui # NOTE: linkapps will be deprecated soon
 
 
 # install Julia
-brew tap dpo/julia
-brew install julia
-brew update && brew upgrade julia
+## NOTE: switch to building Julia from source
+#brew tap staticfloat/julia
+#brew install julia
+#brew cask install julia
 
 
 # install Scala
