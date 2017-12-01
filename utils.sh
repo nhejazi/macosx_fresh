@@ -16,6 +16,10 @@ git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 brew install hugo
 
 
+# add jrnl for journaling/productivity
+brew install jrnl
+
+
 # add convenience utilities
 brew install cairo
 brew install qt
