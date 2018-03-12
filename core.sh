@@ -38,6 +38,7 @@ brew install gdal
 brew install geos
 brew install boost --c++11
 brew install gperftools
+brew install gpg
 
 
 # add some standard C++ ML tools
