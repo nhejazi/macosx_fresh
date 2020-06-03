@@ -1,9 +1,7 @@
 #!/usr/local/bin/bash
 
-
 # add Mac-CLI management tool
 sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
-
 
 # add preferred configuration of Hammerspoon
 if [-e ~/.hammerspoon]; then
@@ -11,35 +9,19 @@ if [-e ~/.hammerspoon]; then
 fi
 git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 
-
 # add Hugo (modern static site engine)
 brew install hugo
 
-
-# add jrnl for journaling/productivity
-brew install jrnl
-
-
 # add convenience utilities
-brew install cairo
-brew install qt
-brew install libtiff
-brew install libjpeg
-brew install webp
-brew install little-cms2
-brew install graphviz --with-librsvg --with-x11
-brew install imagemagick --with-fftw --with-librsvg --with-x11
-brew install mysql
-brew install gsl  # GNU scientific library
-brew install qpdf  # PDF-transformation utility
-brew install pandoc  # markup language conversion tool
-brew install asciinema  # text-based terminal recording tool
-brew install packer  # create machine/container images
-brew install hub  # GitHub wrapper around git
+brew install cairo qt webp little-cms2
+brew install graphviz imagemagick
+brew install gsl            # GNU scientific library
+brew install qpdf           # PDF-transformation utility
+brew install pandoc         # markup language conversion tool
+brew install asciinema      # text-based terminal recording tool
 brew install wifi-password  # get password for current Wi-Fi
-brew install git-flow-avh  # use the "Git flow" branching model
-brew install chrome-cli  # Google Chrome command line tools
-brew install thefuck  # correct incorrect console commands
+brew install git-flow-avh   # use the "Git flow" branching model
+brew install thefuck        # correct incorrect console commands
 
 
 # add command line utilities via NPM
@@ -49,4 +31,3 @@ npm install --global hpm-cli  # utility for installing Hyper packages
 npm install --global speed-test  # testing connection speed using CLI
 npm install --global diff-so-fancy  # for nice looking diffs with git
 npm install --global how2  # for querying StackOverflow
-

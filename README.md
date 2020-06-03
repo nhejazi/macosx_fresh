@@ -1,6 +1,6 @@
-# Fresh macOS [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+# Fresh macOSX [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-> Customization scripts for fresh (re)installs of macOS with
+> Customization scripts for fresh (re)installs of macOSX with
 > [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
 
 ---
@@ -21,8 +21,6 @@ with either of the commands `make` or `make machine`.
 3. `sh ~/macOS-fresh/langs.sh`
 4. `sh ~/macOS-fresh/utils.sh`
 5. `sh ~/macOS-fresh/tools.sh`
-6. `sh ~/macOS-fresh/docker.sh`
-7. `sh ~/macOS-fresh/vim.sh`
 
 __N.B.__, as of 14 September 2017, use of the included recipe for [GNU
 Make](https://www.gnu.org/software/make/) indicates that it functions properly.
@@ -51,7 +49,7 @@ brew cleanup
 
 ## License
 
-&copy; 2016-2017 [Nima Hejazi](http://nimahejazi.org)
+&copy; 2016-2020 [Nima Hejazi](http://nimahejazi.org)
 
 The contents of this repository are distributed under the MIT license. See file
 `LICENSE` for details.
