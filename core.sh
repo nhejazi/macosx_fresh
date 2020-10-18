@@ -15,8 +15,9 @@ brew tap homebrew/cask-versions
 
 # get XCode and core Homebrew tools
 xcode-select --install
-brew install wget curl coreutils git git-lfs subversion zmq czmq
+brew install wget curl coreutils gnu-sed git git-lfs subversion zmq czmq
 brew install gdal geos boost gperftools gpg libjpeg libtiff libsvg libxml2
+brew install hacker1024/hacker1024/coretemp
 
 # add some newer fonts via Cask
 brew cask install font-fira-code font-fontawesome

@@ -22,3 +22,7 @@ brew cask install lumen         # brightness/lighting adjustment
 
 # add jrnl for journaling/productivity
 brew install jrnl
+
+# Resource monitor showing usage and stats for processor, memory, disks, etc.
+pip3 install bpytop --upgrade
+
