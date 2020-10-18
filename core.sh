@@ -32,7 +32,9 @@ brew install the_silver_searcher
 
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydots.git ~/.dotfiles
-sh ~/.dotfiles/place_files.sh
+cd ~/.dotfiles
+sh ./_setup.sh
+cd
 
 # get newer bash and completions
 brew install bash bash-completion2

@@ -20,14 +20,5 @@ brew install qpdf           # PDF-transformation utility
 brew install pandoc         # markup language conversion tool
 brew install asciinema      # text-based terminal recording tool
 brew install wifi-password  # get password for current Wi-Fi
-brew install git-flow-avh   # use the "Git flow" branching model
 brew install thefuck        # correct incorrect console commands
 
-
-# add command line utilities via NPM
-npm install --global now  # domain purchasing, aliasing, etc. (by Zeit)
-npm install --global fkill-cli  # for killing system processes
-npm install --global hpm-cli  # utility for installing Hyper packages
-npm install --global speed-test  # testing connection speed using CLI
-npm install --global diff-so-fancy  # for nice looking diffs with git
-npm install --global how2  # for querying StackOverflow

@@ -2,11 +2,10 @@
 
 # install "user" Ruby to replace "system" Ruby
 brew install rbenv ruby-build
-rbenv install 2.2.3
-rbenv global 2.2.3
 
-# install "user" Python 2.7.X and Python 3.X
-brew install python python3
+# install "user" Python 3.X
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+brew install python pyenv
 
 # install R and RStudio
 brew install R
