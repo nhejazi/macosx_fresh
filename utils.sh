@@ -9,6 +9,9 @@ if [-e ~/.hammerspoon]; then
 fi
 git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
 
+# add GitHub CLI tool
+brew install gh
+
 # add Hugo (modern static site engine)
 brew install hugo
 
