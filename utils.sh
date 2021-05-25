@@ -24,4 +24,3 @@ brew install pandoc         # markup language conversion tool
 brew install asciinema      # text-based terminal recording tool
 brew install wifi-password  # get password for current Wi-Fi
 brew install thefuck        # correct incorrect console commands
-

@@ -5,7 +5,7 @@ brew install rbenv ruby-build
 
 # install "user" Python 3.X
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-brew install python pyenv
+brew install python pyenv pyenv-virtualenv
 
 # install R and RStudio
 brew install R
