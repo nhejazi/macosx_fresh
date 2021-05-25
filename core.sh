@@ -15,7 +15,7 @@ brew tap homebrew/cask-versions
 
 # get XCode and core Homebrew tools
 xcode-select --install
-brew install wget curl coreutils gnu-sed git git-lfs subversion zmq czmq
+brew install wget curl coreutils gnu-sed git git-lfs libgit2 zmq czmq
 brew install gdal geos boost gperftools gpg libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
