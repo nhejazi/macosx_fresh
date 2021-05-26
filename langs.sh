@@ -3,16 +3,19 @@
 # install "user" Ruby to replace "system" Ruby
 brew install rbenv ruby-build
 
-# install "user" Python 3.X
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-brew install python pyenv pyenv-virtualenv
+# install pyenv for Python version management
+brew install pyenv pyenv-virtualenv
 
-# install R and RStudio
+# install R
 brew install R
-R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+#R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+brew install --cask rstudio
 
 # install Julia
 brew install --cask julia
+
+# VSCode editor
+brew install --cask visual-studio-code
 
 # install Lua
 brew install lua
