@@ -12,7 +12,7 @@ brew install R
 R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
 # install Julia
-brew cask install julia
+brew install --cask julia
 
 # install Lua
 brew install lua

@@ -20,12 +20,10 @@ brew install gdal geos boost gperftools gpg libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
 # add some newer fonts via Cask
-brew cask install font-fira-code font-fontawesome
+brew install --cask font-fira-code font-fontawesome
 
-# add mosh (mobile shell client)
+# add mosh (mobile shell client) and tmux (for terminal multiplexer)
 brew install mosh
-
-# get tmux (for multiplexing terminals)
 brew install tmux
 
 # get The Silver Searcher (for fast file searching)
