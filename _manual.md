@@ -1,13 +1,9 @@
-# Manual Install List for mac OS-X:
+# Manual Install List
 
 * [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
+* [Joplin (notes)](https://joplinapp.org)
+
 * [MacTeX](https://tug.org/mactex/downloading.html)
 
-* [Simplenote](https://simplenote.com/)
-
 * [Tad CSV Viewer](http://tadviewer.com/)
-
-* [Kiwi Gmail Client](http://kiwiforgmail.com/)
-
-* [Hemingway Writing Helper](http://www.hemingwayapp.com/)
