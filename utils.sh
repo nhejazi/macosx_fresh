@@ -3,12 +3,6 @@
 # add Mac-CLI management tool
 sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
 
-# add preferred configuration of Hammerspoon
-if [-e ~/.hammerspoon]; then
-  rm -rf ~/.hammerspoon;
-fi
-git clone https://github.com/nhejazi/myhammerspoon.git ~/.hammerspoon
-
 # add GitHub CLI tool
 brew install gh
 
