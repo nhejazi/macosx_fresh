@@ -1,7 +1,7 @@
 #!/usr/local/bin/bash
 
 # get Homebrew utility
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # make sure homebrew is the latest version
 brew update
@@ -36,7 +36,7 @@ sh ./_setup.sh
 cd
 
 # get newer bash and completions
-brew install bash bash-completion2
+brew install bash bash-completion@2
 
 # get zsh, zsh-completions, and z-plug manager
 brew install zsh zsh-completions
