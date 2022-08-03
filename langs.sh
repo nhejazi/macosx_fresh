@@ -17,6 +17,9 @@ brew install --cask julia
 # VSCode editor
 brew install --cask visual-studio-code
 
+# install rust
+brew install rust
+
 # install Lua
 brew install lua
 

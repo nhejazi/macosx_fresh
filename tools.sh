@@ -8,8 +8,9 @@ brew install --cask dropbox
 brew install --cask spotify
 #brew install --cask skype
 #brew install --cask slack
-brew install --cask iterm2       # macOS-only terminal emulator
-brew install --cask tabby        # cross-platform "modern" terminal emulator
+#brew install --cask iterm2       # macOS-only terminal emulator
+#brew install --cask tabby        # cross-platform "modern" terminal emulator
+brew install --cask alacritty    # cross-platform terminal emulator
 brew install --cask lumen        # brightness/lighting adjustment
 
 # add jrnl for journaling/productivity
