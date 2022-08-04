@@ -1,16 +1,14 @@
 #!/usr/local/bin/bash
 
 # add core applications
+brew install --cask amethyst
 brew install --cask xquartz
 brew install --cask firefox
-#brew install --cask google-chrome
 brew install --cask dropbox
 brew install --cask spotify
-#brew install --cask skype
-#brew install --cask slack
-#brew install --cask iterm2       # macOS-only terminal emulator
-#brew install --cask tabby        # cross-platform "modern" terminal emulator
-brew install --cask alacritty    # cross-platform terminal emulator
+brew install --cask slack
+#brew install --cask iterm2
+brew install --cask alacritty
 brew install --cask lumen        # brightness/lighting adjustment
 
 # add jrnl for journaling/productivity
