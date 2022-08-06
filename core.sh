@@ -13,20 +13,19 @@ brew upgrade
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 
-# get XCode and core Homebrew tools
-brew install wget curl coreutils gnu-sed git git-lfs libgit2 zmq czmq
-brew install gdal geos boost gperftools gpg pinentry-mac
+# add core utilities
+brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow
+brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
 brew install libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
 # add some newer fonts via Cask
 brew install --cask font-fira-code font-fontawesome
 
-# add mosh (mobile shell client) and tmux (for terminal multiplexer)
-brew install mosh
+# tmux (for terminal multiplexer)
 brew install tmux
 
-# get The Silver Searcher (for fast file searching)
+# The Silver Searcher (fast file searching)
 brew install the_silver_searcher
 
 # setup my dotfiles
