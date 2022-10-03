@@ -9,6 +9,9 @@ brew install gh
 # add Hugo (modern static site engine)
 brew install hugo
 
+# add modern terminal-based text editor
+brew install helix
+
 # add convenience utilities
 brew install cairo qt webp little-cms2
 brew install graphviz imagemagick

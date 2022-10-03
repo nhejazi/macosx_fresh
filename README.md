@@ -49,7 +49,7 @@ brew cleanup
 
 ## License
 
-&copy; 2016-2022 [Nima Hejazi](http://nimahejazi.org)
+&copy; 2016-2023 [Nima Hejazi](http://nimahejazi.org)
 
 The contents of this repository are distributed under the MIT license. See file
 `LICENSE` for details.

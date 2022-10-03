@@ -11,13 +11,6 @@ brew install R
 #R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 brew install --cask rstudio
 
-# NOTE: install with https://github.com/johnnychen94/jill.py instead
-# install Julia
-#brew install --cask julia
-
-# VSCode editor
-brew install --cask visual-studio-code
-
 # install rust
 brew install rust
 
