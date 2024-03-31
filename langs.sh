@@ -11,6 +11,9 @@ brew install R
 #R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 brew install --cask rstudio
 
+# install Tectonic typesetting system
+brew install tectonic
+
 # install rust
 brew install rust
 
