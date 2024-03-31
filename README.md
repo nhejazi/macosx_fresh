@@ -40,16 +40,9 @@ brew cleanup
 
 ---
 
-## Package Libraries
-
-* __[nhejazi/myPkgLib](https://github.com/nhejazi/myPkgLib)__ - a working list
-  of packages to be used alongside the core software distributed here.
-
----
-
 ## License
 
-&copy; 2016-2023 [Nima Hejazi](http://nimahejazi.org)
+&copy; 2016-2024 [Nima Hejazi](http://nimahejazi.org)
 
 The contents of this repository are distributed under the MIT license. See file
 `LICENSE` for details.

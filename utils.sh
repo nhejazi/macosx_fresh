@@ -3,14 +3,12 @@
 # add Mac-CLI management tool
 #sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
 
+# language server protocols (TeX, markdown)
+brew install texlab
+brew install marksman
+
 # add GitHub CLI tool
 brew install gh
-
-# add Hugo (modern static site engine)
-brew install hugo
-
-# add modern terminal-based text editor
-brew install helix
 
 # add convenience utilities
 brew install cairo qt webp little-cms2
@@ -30,3 +28,4 @@ brew install asciinema
 
 # correct incorrect console commands
 brew install thefuck
+
