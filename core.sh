@@ -41,7 +41,7 @@ brew install bash bash-completion@2
 brew install zsh zsh-completions
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
-# get Vim and NeoVim
+# get Vim
 brew install vim
 
 # get and setup config files for using Vim
