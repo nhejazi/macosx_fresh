@@ -46,4 +46,3 @@ brew cleanup
 
 The contents of this repository are distributed under the MIT license. See file
 `LICENSE` for details.
-
