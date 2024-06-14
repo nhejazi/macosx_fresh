@@ -16,7 +16,7 @@ brew tap homebrew/cask-versions
 # add core utilities
 brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow
 brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
-brew install libjpeg libtiff libsvg libxml2
+brew install gfortran libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
 # add some newer fonts via Cask
