@@ -15,6 +15,6 @@ brew install --cask visual-studio-code
 brew install --cask quarto
 
 # resource monitors
-brew install glances
+#brew install glances
 brew install htop
-
+brew install btop

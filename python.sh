@@ -7,11 +7,11 @@ pyenv global base
 python -m pip install --upgrade pip
 
 # nicer displays of system information
-python -m pip install glances
-python -m pip install bpytop --upgrade
+#python -m pip install glances
+#python -m pip install bpytop --upgrade
 
-# fancy manpages and how-tos
+# manpages and how-tos
 python -m pip install tldr howdoi
 
-# modern REPLs for Python and R
+# REPLs for Python and R
 python -m pip install ipython radian
