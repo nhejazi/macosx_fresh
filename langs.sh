@@ -13,15 +13,6 @@ brew install --cask rig
 rig add release
 #R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
-# install RStudio via cask
-brew install --cask rstudio
-
-# install Julia
-brew install julia
-
-# install Tectonic typesetting system
-brew install tectonic
-
 # install rust
 brew install rust
 
@@ -30,3 +21,10 @@ brew install lua
 
 # install node.js
 brew install node
+
+# install Tectonic typesetting system
+brew install tectonic
+
+# install JuliaUp, Julia version multiplexer
+#brew install juliaup  # NOTE: not recommended by developers
+curl -fsSL https://install.julialang.org | sh

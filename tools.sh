@@ -12,9 +12,10 @@ brew install --cask slack
 brew install --cask iterm2
 brew install --cask alacritty
 brew install --cask visual-studio-code
+#brew install --cask rstudio
+#brew install --cask positron
 brew install --cask quarto
 
 # resource monitors
-#brew install glances
 brew install htop
 brew install btop
