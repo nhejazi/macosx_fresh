@@ -25,6 +25,9 @@ brew install --cask font-fira-code font-fontawesome
 # tmux (for terminal multiplexer)
 brew install tmux
 
+# tree-sitter parsing library
+brew install tree-sitter
+
 # The Silver Searcher (fast file searching)
 brew install the_silver_searcher
 
@@ -41,8 +44,9 @@ brew install bash bash-completion@2
 brew install zsh zsh-completions
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
-# get Vim
+# get Vim and Neovim
 brew install vim
+brew install neovim
 
 # get and setup config files for using Vim
 if [ ! -d $(echo $HOME/.vim) ]; then
