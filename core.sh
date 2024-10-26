@@ -28,7 +28,8 @@ brew install tmux
 # tree-sitter parsing library
 brew install tree-sitter
 
-# The Silver Searcher (fast file searching)
+# tools for fast file searching
+brew install ripgrep
 brew install the_silver_searcher
 
 # setup my dotfiles
