@@ -14,7 +14,7 @@ brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 
 # add core utilities
-brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow
+brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow lazygit
 brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
 brew install gfortran libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
@@ -29,8 +29,10 @@ brew install tmux
 brew install tree-sitter
 
 # tools for fast file searching
-brew install ripgrep
 brew install the_silver_searcher
+brew install ast-grep
+brew install ripgrep
+brew install fd
 
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydots.git $HOME/.dotfiles
