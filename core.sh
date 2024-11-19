@@ -22,11 +22,14 @@ brew install hacker1024/hacker1024/coretemp
 # add some newer fonts via Cask
 brew install --cask font-fira-code font-fontawesome
 
-# tmux (for terminal multiplexer)
+# tmux terminal multiplexer
 brew install tmux
 
 # tree-sitter parsing library
 brew install tree-sitter
+
+# terminal-based git UI for mere mortals
+brew install jesseduffield/lazygit/lazygit
 
 # tools for fast file searching
 brew install the_silver_searcher
