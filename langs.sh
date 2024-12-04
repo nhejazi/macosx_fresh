@@ -25,6 +25,9 @@ brew install node
 # install Tectonic typesetting system
 brew install tectonic
 
+# install Typst typesetting system
+brew install typst
+
 # install JuliaUp, Julia version multiplexer
 #brew install juliaup  # NOTE: not recommended by developers
 curl -fsSL https://install.julialang.org | sh
