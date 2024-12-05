@@ -7,8 +7,8 @@
 
 ## Directions
 
-First, __manually install__ both
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) and
+First,**manually install** both
+[Xcode](https://apps.apple.com/us/app/xcode/) and
 [MacTeX](https://tug.org/mactex/downloading.html).
 
 _The step-by-step procedure is given below in case any problems arise during the
@@ -24,12 +24,6 @@ with either of the commands `make` or `make machine`.
 
 __N.B.__, as of 14 September 2017, use of the included recipe for [GNU
 Make](https://www.gnu.org/software/make/) indicates that it functions properly.
-
-
-### Manual Installations
-
-* For several select tools, manual installation is the easiest option. See
-  `_manual.md` for a list of such tools.
 
 
 ### Updates with [Homebrew](http://brew.sh)

@@ -9,10 +9,6 @@ brew update
 # upgrade any formulae already installed
 brew upgrade
 
-# tap Homebrew libraries
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-
 # add core utilities
 brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow lazygit
 brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
