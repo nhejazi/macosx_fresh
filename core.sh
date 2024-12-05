@@ -43,9 +43,11 @@ cd ... || return
 brew install zsh zsh-completions
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
+# resource monitors
+brew install htop btop
+
 # get Vim and Neovim
-brew install vim
-brew install neovim
+brew install vim neovim
 
 # get and setup config files for using Vim
 if [ ! -d $(echo $HOME/.vim) ]; then

@@ -14,7 +14,3 @@ brew install --cask alacritty
 brew install --cask visual-studio-code
 brew install --cask positron
 brew install --cask quarto
-
-# resource monitors
-brew install htop
-brew install btop
