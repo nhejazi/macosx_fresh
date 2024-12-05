@@ -15,8 +15,8 @@ brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
 brew install gfortran libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
-# add some newer fonts via Cask
-brew install --cask font-fira-code font-fontawesome
+# add some newer fonts
+brew install font-fira-code font-fontawesome font-hack-nerd-font
 
 # tmux terminal multiplexer
 brew install tmux
