@@ -37,10 +37,7 @@ brew install fd
 git clone https://github.com/nhejazi/mydots.git $HOME/.dotfiles
 cd $HOME/.dotfiles
 sh ./_setup.sh
-cd
-
-# get newer bash and completions
-brew install bash bash-completion@2
+cd ... || return
 
 # get zsh, zsh-completions, and z-plug manager
 brew install zsh zsh-completions
@@ -52,13 +49,13 @@ brew install neovim
 
 # get and setup config files for using Vim
 if [ ! -d $(echo $HOME/.vim) ]; then
-  git clone http://github.com/nhejazi/vim_lyfe.git $HOME/.vim
+  git clone http://github.com/nhejazi/vim_edc.git $HOME/.vim
 fi
 sh $HOME/.vim/_setup.sh
 
 # get and setup config files for using Neovim
 if [ ! -d $(echo $HOME/.config/nvim) ]; then
-  git clone http://github.com/nhejazi/vim_lyfe.git $HOME/.config/nvim
+  git clone http://github.com/nhejazi/nvim0.git $HOME/.config/nvim
 fi
 sh $HOME/.config/nvim/_setup.sh
 
