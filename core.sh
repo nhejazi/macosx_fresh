@@ -32,6 +32,7 @@ brew install the_silver_searcher
 brew install ast-grep
 brew install ripgrep
 brew install fd
+brew install fzf
 
 # setup my dotfiles
 git clone https://github.com/nhejazi/mydots.git $HOME/.dotfiles
