@@ -3,8 +3,6 @@
 > Customization scripts for fresh (re)installs of macOSX with
 > [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
 
----
-
 ## Directions
 
 First,**manually install** both
@@ -22,11 +20,11 @@ with either of the commands `make` or `make machine`.
 4. `sh ~/macOS-fresh/utils.sh`
 5. `sh ~/macOS-fresh/tools.sh`
 
-__N.B.__, as of 14 September 2017, use of the included recipe for [GNU
+**N.B.**, as of 14th September 2017, use of the included recipe for [GNU
 Make](https://www.gnu.org/software/make/) indicates that it functions properly.
 
-
 ### Updates with [Homebrew](http://brew.sh)
+
 ```bash
 brew update && brew upgrade
 brew cleanup
