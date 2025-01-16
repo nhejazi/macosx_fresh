@@ -14,14 +14,11 @@ installation process_, for simplicity invoke the [GNU
 Make](https://www.gnu.org/software/make/) recipe from the `Makefile` provided
 with either of the commands `make` or `make machine`.
 
-1. `git clone http://github.com/nhejazi/macOS-fresh.git ~/macOS-fresh`
-2. `sh ~/macOS-fresh/core.sh`
-3. `sh ~/macOS-fresh/langs.sh`
-4. `sh ~/macOS-fresh/utils.sh`
-5. `sh ~/macOS-fresh/tools.sh`
-
-**N.B.**, as of 14th September 2017, use of the included recipe for [GNU
-Make](https://www.gnu.org/software/make/) indicates that it functions properly.
+1. `git clone http://github.com/nhejazi/macOS-fresh.git $HOME/macOS-fresh`
+2. `sh $HOME/macOS-fresh/core.sh`
+3. `sh $HOME/macOS-fresh/langs.sh`
+4. `sh $HOME/macOS-fresh/utils.sh`
+5. `sh $HOME/macOS-fresh/tools.sh`
 
 ### Updates with [Homebrew](http://brew.sh)
 
