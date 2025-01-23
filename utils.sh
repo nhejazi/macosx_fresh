@@ -1,11 +1,9 @@
 #!/usr/local/bin/bash
 
-# add Mac-CLI management tool
-#sh -c "$(wget https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install -O -)"
-
 # language server protocols (TeX, markdown)
 brew install texlab
 brew install marksman
+brew install vale
 
 # add GitHub CLI tool
 brew install gh
@@ -28,4 +26,3 @@ brew install asciinema
 
 # correct incorrect console commands
 brew install thefuck
-
