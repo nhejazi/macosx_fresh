@@ -3,9 +3,9 @@
 > Customization scripts for fresh (re)installs of macOSX with
 > [Homebrew](http://brew.sh/) and [Cask](https://caskroom.github.io/).
 
-## Directions
+## Setup: How-to
 
-First,**manually install** both
+First, **manually install** both
 [Xcode](https://apps.apple.com/us/app/xcode/) and
 [MacTeX](https://tug.org/mactex/downloading.html).
 
@@ -20,7 +20,7 @@ with either of the commands `make` or `make machine`.
 4. `sh $HOME/macOS-fresh/utils.sh`
 5. `sh $HOME/macOS-fresh/tools.sh`
 
-### Updates with [Homebrew](http://brew.sh)
+### Updating with [Homebrew](http://brew.sh)
 
 ```bash
 brew update && brew upgrade
@@ -31,7 +31,7 @@ brew cleanup
 
 ## License
 
-&copy; 2016-2024 [Nima Hejazi](http://nimahejazi.org)
+&copy; 2016-2025 [Nima Hejazi](http://nimahejazi.org)
 
 The contents of this repository are distributed under the MIT license. See file
 `LICENSE` for details.
