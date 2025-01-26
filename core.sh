@@ -11,7 +11,7 @@ brew upgrade
 
 # add core utilities
 brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow lazygit
-brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac
+brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac tree
 brew install gfortran libjpeg libtiff libsvg libxml2
 brew install hacker1024/hacker1024/coretemp
 
