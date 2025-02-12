@@ -26,3 +26,7 @@ brew install asciinema
 
 # correct incorrect console commands
 brew install thefuck
+
+# add janky borders
+brew tap FelixKratz/formulae
+brew install borders
