@@ -1,6 +1,6 @@
 #!/usr/local/bin/bash
 
-# install "user" Ruby to replace "system" Ruby
+# install user ruby to avoid using system ruby
 brew install rbenv ruby-build
 
 # install pyenv for Python version management

@@ -27,12 +27,15 @@ brew install tree-sitter
 # terminal-based git UI
 brew install jesseduffield/lazygit/lazygit
 
+# ssh key manager
+brew install sshpass
+
 # fast file searching
 brew install the_silver_searcher ast-grep ripgrep fd fzf
 
 # setup my dotfiles
-git clone https://github.com/nhejazi/mydots.git $HOME/.dotfiles
-cd $HOME/.dotfiles
+git clone https://github.com/nhejazi/mydots.git "$HOME/.dotfiles"
+cd "$HOME/.dotfiles" || return
 sh ./_setup.sh
 cd ... || return
 
@@ -48,9 +51,9 @@ brew install neovim
 
 # config files for neovim
 if [ ! -d $(echo $HOME/.config/nvim) ]; then
-  git clone http://github.com/nhejazi/nvim0.git $HOME/.config/nvim
+  git clone http://github.com/nhejazi/nvim0.git "$HOME/.config/nvim"
 fi
-sh $HOME/.config/nvim/_setup.sh
+sh "$HOME/.config/nvim/_setup.sh"
 
 # remove outdated versions of stuff from cellar
 brew cleanup
