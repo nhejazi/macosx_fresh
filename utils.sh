@@ -15,8 +15,9 @@ brew install graphviz imagemagick
 # GNU scientific library
 brew install gsl
 
-# PDF-transformation utility
+# PDF-transformation utilities
 brew install qpdf
+brew install pdftk-java
 
 # markup language conversion tool
 brew install pandoc
