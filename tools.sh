@@ -8,6 +8,7 @@ brew install --cask firefox
 brew install --cask dropbox
 brew install --cask spotify
 brew install --cask slack
+brew install --cask zulip
 
 # add coding and development tools
 # brew install --cask iterm2
