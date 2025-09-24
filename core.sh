@@ -23,6 +23,7 @@ brew install tmux
 
 # parsing library
 brew install tree-sitter
+brew install tree-sitter-cli
 
 # terminal-based git UI
 brew install jesseduffield/lazygit/lazygit

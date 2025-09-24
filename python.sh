@@ -8,3 +8,6 @@ python -m pip install --upgrade pip
 
 # REPLs for Python and R
 python -m pip install ipython radian
+
+# install neovim module
+python -m pip install neovim
