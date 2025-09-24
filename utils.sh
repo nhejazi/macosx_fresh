@@ -1,9 +1,10 @@
 #!/usr/local/bin/bash
 
-# language server protocols (TeX, markdown)
+# language servers  (TeX, markdown, R)
 brew install texlab
 brew install marksman
 brew install vale
+brew install air
 
 # add GitHub CLI tool
 brew install gh
