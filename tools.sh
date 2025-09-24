@@ -16,6 +16,6 @@ brew install --cask zulip
 brew install --cask ghostty
 # brew install --cask zed
 brew install --cask visual-studio-code
-brew install --cask rstudio
+# brew install --cask rstudio
 brew install --cask positron
 brew install --cask quarto
