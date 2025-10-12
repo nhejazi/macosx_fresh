@@ -14,10 +14,10 @@ rig add release
 #R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
 # install rust
-brew install rust
+brew install rust rustup
 
 # install Lua
-brew install lua
+brew install lua luarocks
 
 # install node.js
 brew install node
