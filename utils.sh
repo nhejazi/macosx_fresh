@@ -29,3 +29,6 @@ brew install asciinema
 
 # correct incorrect console commands
 brew install thefuck
+
+# why is this (port, service, command) running?
+brew install witr
