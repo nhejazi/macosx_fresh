@@ -9,6 +9,7 @@ brew install vale
 
 # add GitHub CLI tool
 brew install gh
+brew install copilot-cli
 
 # add convenience utilities
 brew install cairo qt webp little-cms2
