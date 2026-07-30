@@ -7,8 +7,9 @@ brew install rbenv ruby-build
 brew install pyenv pyenv-virtualenv
 
 # install R installation manager (rig), and R via rig
-#brew install R
+# brew install R
 brew tap r-lib/rig
+# brew trust --cask r-lib/rig/rig
 brew install --cask rig
 rig add release
 #R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
@@ -29,5 +30,5 @@ brew install tectonic
 brew install typst
 
 # install JuliaUp, Julia version multiplexer
-#brew install juliaup  # NOTE: not recommended by developers
+# brew install juliaup  # NOTE: not recommended by developers
 curl -fsSL https://install.julialang.org | sh
