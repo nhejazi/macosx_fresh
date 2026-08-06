@@ -1,6 +1,6 @@
 #!/usr/local/bin/bash
 
-# language servers  (TeX, markdown, R)
+# language servers
 brew install texlab
 brew install air
 brew install marksman
@@ -8,8 +8,7 @@ brew install markdown-oxide
 brew install vale
 
 # add GitHub CLI tool
-brew install gh
-brew install copilot-cli
+brew install gh copilot-cli
 
 # add convenience utilities
 brew install cairo qt webp little-cms2

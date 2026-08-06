@@ -6,13 +6,12 @@ brew install rbenv ruby-build
 # install pyenv for Python version management
 brew install pyenv pyenv-virtualenv
 
-# install R installation manager (rig), and R via rig
+# install R installation manager (rig), and then R via rig
 # brew install R
-brew tap r-lib/rig
-# brew trust --cask r-lib/rig/rig
-brew install --cask rig
+# brew install r-rig
+curl -LsSf https://r-lib.github.io/rig/install.sh | sh
+rig system user-mode
 rig add release
-#R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
 
 # install rust
 brew install rust rustup

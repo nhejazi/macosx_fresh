@@ -10,23 +10,21 @@ brew update
 brew upgrade
 
 # add core utilities
-brew install wget curl coreutils gnu-sed git libgit2 git-lfs git-flow lazygit
+brew install wget curl coreutils gnu-sed tcl-tk
 brew install zmq czmq gdal geos boost gperftools gpg pinentry-mac tree
 brew install gfortran libjpeg libtiff libsvg libxml2
-brew install hacker1024/hacker1024/coretemp
 
-# some newer fonts (note: bundled with some terminals?)
+# git and git utilities
+brew install git libgit2 git-lfs git-flow lazygit
+
+# some newer fonts (probably already bundled with terminal emulator)
 brew install font-fira-code font-fontawesome font-hack-nerd-font
 
 # terminal multiplexer
 brew install tmux
 
 # parsing library
-brew install tree-sitter
-brew install tree-sitter-cli
-
-# terminal-based git UI
-brew install jesseduffield/lazygit/lazygit
+brew install tree-sitter tree-sitter-cli
 
 # ssh key manager
 brew install sshpass
@@ -51,7 +49,7 @@ brew install htop btop
 brew install neovim
 
 # config files for neovim
-if [ ! -d $(echo $HOME/.config/nvim) ]; then
+if [ ! -d $(echo "$HOME/.config/nvim") ]; then
   git clone http://github.com/nhejazi/nvim0.git "$HOME/.config/nvim"
 fi
 sh "$HOME/.config/nvim/_setup.sh"
