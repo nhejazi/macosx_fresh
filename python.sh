@@ -7,7 +7,8 @@ pyenv global base_env
 python -m pip install --upgrade pip
 
 # REPLs for Python and R
-python -m pip install ipython radian
+python -m pip install ipython
+# python -m pip install radian
 
 # install neovim module
 python -m pip install neovim
